@@ -19,9 +19,9 @@
 ```
 
 ## 📖 快速开始
-1. 将`.agent/`目录复制到你的工作区：
+1. 将`.agent`目录复制到你的工作区：
 ```bash
-cp -r .agent/ /path/to/your/workspace/
+cp -r .agent /path/to/your/workspace/
 ```
 2. **调用 Skill**: 在对话框输入 `@[skill-name]` 或 `/skill-name`来进行调用，例如：
 ```text
