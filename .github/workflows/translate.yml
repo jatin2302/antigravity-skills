@@ -1,12 +1,7 @@
-name: Auto Translate Docs
+name: Manual Translate Docs
 
 on:
-  push:
-    branches:
-      - main
-    paths:
-      - 'README.md'
-      - 'docs/Antigravity_Skills_Manual_CN.md'
+  workflow_dispatch:
 
 jobs:
   translate:
@@ -14,28 +9,34 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+
+      - name: Translate README to English
+        uses: dephraiim/translate-readme@main
         with:
-          fetch-depth: 0
+          LANG: en
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - name: Rename translated README
+        run: |
+          if [ -f "README.en.md" ]; then
+            mv README.en.md README.EN.md
+          fi
+
+      - name: Translate Manual to English
+        uses: dephraiim/translate-readme@main
         with:
-          python-version: '3.10'
+          LANG: en
+          readme-path: docs/Antigravity_Skills_Manual_CN.md
 
-      - name: Install dependencies
+      - name: Rename translated Manual
         run: |
-          pip install google-generativeai
-
-      - name: Run translation script
-        env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-        run: |
-          python scripts/translate_docs.py
+          if [ -f "docs/Antigravity_Skills_Manual_CN.en.md" ]; then
+            mv docs/Antigravity_Skills_Manual_CN.en.md docs/Antigravity_Skills_Manual_EN.md
+          fi
 
       - name: Commit and push changes
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add README.EN.md docs/Antigravity_Skills_Manual_EN.md
-          git commit -m "docs: auto-translate updated documentation to English" || echo "No changes to commit"
+          git commit -m "docs: manually triggered translation of documentation to English" || echo "No changes to commit"
           git push
