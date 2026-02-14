@@ -1,0 +1,134 @@
+[
+  {
+    "id": "local-plumber-3-cities",
+    "prompt": "I run a plumbing company called Boston Best Plumbing. Website is bostonbestplumbing.com. We serve Boston, Cambridge, and Somerville. Our main services are emergency plumbing, drain cleaning, and water heater installation/repair. Help me create an SEO strategy.",
+    "files": [],
+    "expectations": [
+      "Performs keyword research for plumbing services in those 3 cities",
+      "Clusters keywords by intent (emergency vs. planned, informational vs. transactional)",
+      "Creates a service + location page architecture (3 services × 3 cities + hubs)",
+      "Identifies competitor gaps in the local plumbing market",
+      "Provides internal linking strategy connecting service and location pages",
+      "Outputs structured page list with priorities (P0, P1, P2)",
+      "Maps keywords to specific pages with primary and secondary targets",
+      "Creates execution checklist with realistic timeline",
+      "Delivers outputs in spreadsheet format (.xlsx) for page list and keyword map",
+      "Recommends quick wins (low competition opportunities)"
+    ]
+  },
+  {
+    "id": "saas-national",
+    "prompt": "We're a SaaS company offering project management software at projectflow.io. National market, no location focus. Main features are task management, time tracking, team collaboration, and reporting. Our competitors are Asana, Monday.com, and Trello. Create an SEO content strategy.",
+    "files": [],
+    "expectations": [
+      "Research keywords around project management software and features",
+      "Clusters by intent (comparison pages, feature pages, use case pages, educational)",
+      "Creates page architecture appropriate for SaaS (not location-based)",
+      "Includes competitor comparison pages (vs Asana, Monday, Trello)",
+      "Identifies content gaps competitors aren't covering well",
+      "Maps keywords to pages with clear intent labels",
+      "Designs hub-and-spoke internal linking for topical authority",
+      "Prioritizes pages based on funnel stage (awareness → decision)",
+      "Outputs include page list, keyword map, and execution plan",
+      "Addresses how to compete with established brands"
+    ]
+  },
+  {
+    "id": "law-firm-multi-location",
+    "prompt": "Personal injury law firm with offices in Miami, Fort Lauderdale, West Palm Beach, and Tampa. Website is floridalawyers.com. We handle car accidents, slip and fall, medical malpractice, and wrongful death cases. Create our SEO strategy.",
+    "files": [],
+    "expectations": [
+      "Researches legal keywords with appropriate commercial intent",
+      "Creates service + location architecture for 4 practice areas × 4 cities",
+      "Understands legal SEO considerations and competitive landscape",
+      "Clusters keywords by case type and intent",
+      "Identifies which service+location combinations have actual search demand",
+      "Recommends avoiding thin content across too many combinations",
+      "Creates internal linking strategy appropriate for legal content",
+      "Maps high-intent keywords (hiring intent) to priority pages",
+      "Provides realistic timeline given content review requirements in legal",
+      "Includes FAQ pages for common legal questions (informational intent)"
+    ]
+  },
+  {
+    "id": "ecommerce-outdoor-gear",
+    "prompt": "E-commerce site selling outdoor camping and hiking gear at trailmaster.com. Products include tents, backpacks, sleeping bags, hiking boots, and camping accessories. National audience. What's our SEO content strategy?",
+    "files": [],
+    "expectations": [
+      "Creates category-based page architecture (not location-based)",
+      "Identifies buying intent keywords (best, reviews, buying guide)",
+      "Recommends comparison pages and buying guides",
+      "Maps informational content (how to choose, guides) to support product pages",
+      "Creates internal linking from guides to relevant products",
+      "Identifies competitor gaps in content or product coverage",
+      "Structures keywords by product category and use case",
+      "Recommends seasonal content opportunities",
+      "Provides page list with product categories and supporting content",
+      "Focuses on transactional and commercial investigation intents"
+    ]
+  },
+  {
+    "id": "minimal-input-extraction",
+    "prompt": "Need SEO strategy for my digital marketing agency in Austin. URL is austindigital.co",
+    "files": [],
+    "expectations": [
+      "Asks clarifying questions about services offered",
+      "Asks about target locations (Austin only or broader?)",
+      "Asks about competitors or specific goals",
+      "Still provides useful directional strategy with limited information",
+      "Makes reasonable assumptions about digital marketing services",
+      "Creates page structure appropriate for agency (services + maybe locations)",
+      "Identifies typical digital marketing agency keywords",
+      "Provides framework that can be refined with more input",
+      "Explains what additional information would improve the strategy"
+    ]
+  },
+  {
+    "id": "competitor-gap-focus",
+    "prompt": "I'm a dentist in Seattle (seattlesmiledental.com). My main competitors are Aspen Dental and local practices ranking well. I want to know what content gaps exist that I can exploit.",
+    "files": [],
+    "expectations": [
+      "Analyzes competitor content strategies",
+      "Identifies topics competitors rank for with weak content",
+      "Finds question-based keywords competitors don't answer",
+      "Recommends specific pages to create based on gaps",
+      "Prioritizes gaps by opportunity (volume + winnability)",
+      "Includes both service-based and informational gaps",
+      "Maps gap opportunities to specific page recommendations",
+      "Provides rationale for why each gap is exploitable",
+      "Creates execution priority based on ROI potential"
+    ]
+  },
+  {
+    "id": "internal-linking-complex-site",
+    "prompt": "We have a large educational site with 200+ articles about personal finance. URL is moneysmart.org. We need an internal linking strategy to organize this content and build topical authority around key topics like investing, budgeting, credit cards, and taxes.",
+    "files": [],
+    "expectations": [
+      "Creates hub-and-spoke architecture for main topics",
+      "Identifies which pages should be hubs vs. supporting content",
+      "Designs link flow from homepage → hubs → spoke pages",
+      "Recommends pillar pages for each main topic",
+      "Maps lateral linking between related subtopics",
+      "Explains link distribution strategy (authority flow)",
+      "Identifies any orphan content to reconnect",
+      "Creates actionable linking checklist",
+      "Prioritizes linking updates by impact",
+      "Addresses how to avoid over-linking"
+    ]
+  },
+  {
+    "id": "output-format-validation",
+    "prompt": "Create SEO strategy for a roofing company (roofexperts.com) serving Dallas and Houston. Services: roof repair, replacement, inspection. I need everything in spreadsheet format.",
+    "files": [],
+    "expectations": [
+      "Creates output in .xlsx spreadsheet format",
+      "Includes tabs for page list, keyword research, keyword mapping, and competitors",
+      "Page list includes URL structure, priority levels, status",
+      "Keyword map shows primary/secondary keywords per page",
+      "Structured data is organized in columns (not just text in cells)",
+      "Provides execution checklist as additional output",
+      "Uses appropriate formatting (headers, filters, etc.)",
+      "Data is actionable and ready to work from"
+    ]
+  }
+]

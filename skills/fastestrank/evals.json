@@ -1,0 +1,167 @@
+[
+  {
+    "id": "bhw-clear-buy",
+    "prompt": "Process this BHW WTB post:\n\nWTB: Niche Edits - Finance Niche\nBudget: $80-120 per link\nNeed 15 links for credit card comparison site\nDR 30+ sites\nTAT: 3 weeks\nPayment: PayPal, 50% upfront 50% on delivery\nPM me if you can deliver",
+    "files": [],
+    "expectations": [
+      "Extracts budget ($80-120 per link, $1200-1800 total)",
+      "Identifies clear scope (15 niche edits, finance, DR30+)",
+      "Notes timeline (3 weeks) and payment terms (50/50)",
+      "Classifies as BUY with high confidence",
+      "Creates complete offer with fixed-price tiers",
+      "Offer includes what's included and NOT included",
+      "Provides clear next step/CTA",
+      "Deal summary is one paragraph",
+      "Entire output enables decision in ≤2 minutes"
+    ]
+  },
+  {
+    "id": "unrealistic-guarantee-reject",
+    "prompt": "Here's an inquiry I got:\n\nHi, I need my website to rank #1 on Google for 'insurance' and 'loans' within 2 weeks. My budget is $200 total. Can you guarantee these rankings? I need proof you can do this before I pay anything. Let me know.",
+    "files": [],
+    "expectations": [
+      "Identifies unrealistic expectations (2 weeks for ultra-competitive keywords)",
+      "Flags insufficient budget ($200 for enterprise-level keywords)",
+      "Catches guarantee demand as red flag",
+      "Notes proof/free work request as red flag",
+      "Classifies as REJECT with high confidence",
+      "Provides brief decline template or recommends ignore",
+      "Deal summary explains why this is not viable",
+      "Does not waste time creating an offer"
+    ]
+  },
+  {
+    "id": "nurture-budget-unclear",
+    "prompt": "Lead from email:\n\nSubject: Link Building Help\n\nHi, I run an e-commerce site selling fitness equipment. Our organic traffic has been declining and I think we need backlinks. What do you charge and what would you recommend? Looking to get started soon.\n\nThanks,\nMike",
+    "files": [],
+    "expectations": [
+      "Identifies legitimate pain point (declining traffic)",
+      "Notes urgency signal (wants to start soon)",
+      "Recognizes missing information (budget, specific goals)",
+      "Classifies as NURTURE",
+      "Asks 1-2 qualifying questions (budget range, specific goals)",
+      "Questions are clear and easy to answer",
+      "Does not create full offer yet",
+      "Explains that offer will come after clarity"
+    ]
+  },
+  {
+    "id": "bhw-red-flags-reject",
+    "prompt": "BHW WTB post:\n\nWTB: Backlinks (CHEAP!!!)\nNeed 500 backlinks ASAP\nBudget: $50 MAX\nMust see samples first (free)\nWill leave review if links work\nPay after I see rankings improve\nDM fast",
+    "files": [],
+    "expectations": [
+      "Identifies multiple red flags (unrealistic quantity/budget, free sample demand, pay-after-results)",
+      "Notes aggressive tone ('CHEAP!!!', 'DM fast')",
+      "Recognizes impossible budget ($50 for 500 links)",
+      "Classifies as REJECT",
+      "High confidence rejection",
+      "Recommends ignore (no need to respond)",
+      "Deal summary explains red flag combo",
+      "Does not attempt to salvage this lead"
+    ]
+  },
+  {
+    "id": "professional-inquiry-buy",
+    "prompt": "Email lead:\n\nHello,\n\nI'm the marketing director at a SaaS company (projectmanagement.io). We're looking to build high-quality backlinks to improve our domain authority and rankings for key product terms.\n\nScope: 25-30 guest posts on relevant B2B/tech sites\nTimeline: 60-90 days\nBudget: $5,000-7,500\n\nWe need sites with real traffic and editorial standards. Can you provide a proposal?\n\nBest,\nSarah Chen\nMarketing Director",
+    "files": [],
+    "expectations": [
+      "Recognizes professional communication and title",
+      "Extracts clear budget ($5k-7.5k), scope (25-30 guest posts), timeline (60-90 days)",
+      "Notes quality signals (wants real traffic, editorial standards)",
+      "Classifies as BUY with high confidence",
+      "Creates professional offer matching their budget range",
+      "Offer includes tiered options within budget",
+      "Addresses their quality requirements explicitly",
+      "Professional tone matching their communication level"
+    ]
+  },
+  {
+    "id": "scope-creep-signals-nurture",
+    "prompt": "Chat log from Discord:\n\nUser: Hey I need SEO help for my site\nUser: Actually I need links AND content\nUser: Oh and can you do social media too?\nUser: And fix my site speed\nUser: Budget is around $500/month\nUser: Can you do all that?",
+    "files": [],
+    "expectations": [
+      "Identifies scope creep pattern (constantly adding services)",
+      "Notes budget ($500/month) vs. expanding scope",
+      "Recognizes need for scope clarification",
+      "Classifies as NURTURE",
+      "Asks to prioritize what's most important",
+      "Attempts to narrow scope to fit budget",
+      "Sets boundaries on what $500 can cover",
+      "Does not accept undefined expanding scope"
+    ]
+  },
+  {
+    "id": "local-business-buy",
+    "prompt": "Lead form submission:\n\nBusiness: Martinez Dental Clinic\nLocation: Austin, TX\nRequest: Need to rank higher on Google for 'dentist Austin' and related terms. Currently on page 2-3. Losing patients to competitors on page 1.\nBudget: $1,500-2,500/month\nTimeline: Want to see improvement in 3-4 months\nPhone: Provided\nEmail: Provided",
+    "files": [],
+    "expectations": [
+      "Extracts local business context (dentist, Austin)",
+      "Identifies clear pain point (losing patients to competitors)",
+      "Notes realistic budget ($1.5-2.5k/month) and timeline (3-4 months)",
+      "Recognizes this is qualified local SEO lead",
+      "Classifies as BUY",
+      "Creates offer focused on local SEO (citations, local links, GMB)",
+      "Timeline in offer matches their 3-4 month expectation",
+      "Addresses competitive displacement pain point"
+    ]
+  },
+  {
+    "id": "analysis-paralysis-reject",
+    "prompt": "Email thread (5th email from prospect):\n\nThanks for the proposal. A few more questions:\n- Can you provide case studies from exactly my niche?\n- What's your exact link placement process?\n- How do you source writers?\n- Can I approve every site before you post?\n- What if I don't like the content?\n- Can we do a trial month first?\n- Will you provide weekly reports?\n- What happens if rankings don't improve?\n\nI'm comparing 12 different agencies so need all this info before deciding. Also still not sure about budget - can you give me 3 more pricing options?\n\nThanks",
+    "files": [],
+    "expectations": [
+      "Identifies analysis paralysis (excessive questions, 5th email, comparing 12 agencies)",
+      "Notes indecision signals (still unsure about budget)",
+      "Recognizes time-waster pattern",
+      "Classifies as REJECT or deprioritize",
+      "Recommends either brief response or move on",
+      "Does not invest more time answering questions",
+      "Notes that conversion probability is very low",
+      "Suggests focusing on ready-to-buy leads instead"
+    ]
+  },
+  {
+    "id": "budget-signals-extraction",
+    "prompt": "Process this:\n\nHey, we're a startup that just raised Series A. Need to scale up our content and backlink strategy. We're seeing our competitors rank for all the keywords we want. Revenue is around $2M ARR, growing 20% MoM. Team of 15. What can you do for us?",
+    "files": [],
+    "expectations": [
+      "Infers budget capability from context (Series A, $2M ARR, team of 15)",
+      "Recognizes competitive pressure as urgency signal",
+      "Notes scale-up language suggests larger budget",
+      "Classifies as NURTURE (budget not stated but high potential)",
+      "Asks about budget range appropriate for their stage",
+      "Creates offer framework ready to adjust to budget",
+      "Treats as high-value prospect worth clarifying",
+      "Does not assume low budget based on startup label"
+    ]
+  },
+  {
+    "id": "output-format-check",
+    "prompt": "Simple lead: I need 10 guest posts for my travel blog. Budget $100 per post. Can start next week.",
+    "files": [],
+    "expectations": [
+      "Outputs in exact format specified: Deal Summary, Recommendation, Offer/Response",
+      "Deal summary is one paragraph (3-4 sentences max)",
+      "Recommendation includes classification (BUY/NURTURE/REJECT), reasoning, confidence, action",
+      "Offer (if BUY) includes all required elements: included, not included, investment, timeline, CTA",
+      "Uses visual separators/formatting for clarity",
+      "Entire output is scannable in ≤2 minutes",
+      "Classification is unambiguous",
+      "Action step is clear and specific"
+    ]
+  },
+  {
+    "id": "partial-info-handling",
+    "prompt": "Quick message on BHW: Need links. DM me.",
+    "files": [],
+    "expectations": [
+      "Recognizes extreme lack of information",
+      "Makes reasonable assumptions or notes what's missing",
+      "Likely classifies as NURTURE or low-priority",
+      "Asks for minimum critical info (budget, scope, timeline)",
+      "Does not spend time creating detailed offer without info",
+      "Notes assumptions in deal summary",
+      "Keeps response brief matching their brief inquiry"
+    ]
+  }
+]

@@ -1,0 +1,95 @@
+{
+  "last_updated": "2026-02-15",
+  "notebooks": {
+    "🎯 Marketing & SEO Skills": {
+      "id": "2c5714a8-bc9a-4ce8-b816-ec2a3221cd8c",
+      "url": "https://notebooklm.google.com/notebook/2c5714a8-bc9a-4ce8-b816-ec2a3221cd8c",
+      "skills_count": 21,
+      "skills": [
+        "seo-strategist", "content-page-builder", "qa-sop-enforcer", "reddit-outreach",
+        "competitive-ads-extractor", "fastestrank-intake", "ahrefs-automation",
+        "semrush-automation", "google-search-console-automation", "google-analytics-automation",
+        "googleads-automation", "mailchimp-automation", "facebook-automation",
+        "instagram-automation", "linkedin-automation", "twitter-automation",
+        "tiktok-automation", "brevo-automation", "sendgrid-automation",
+        "mailerlite-automation", "twitter-algorithm-optimizer"
+      ]
+    },
+    "💼 CRM & Sales Skills": {
+      "id": "4acfbfaa-5db1-4274-b9a8-539f535979fd",
+      "url": "https://notebooklm.google.com/notebook/4acfbfaa-5db1-4274-b9a8-539f535979fd",
+      "skills_count": 12,
+      "skills": [
+        "hubspot-automation", "salesforce-automation", "pipedrive-automation",
+        "apollo-automation", "lead-research-assistant", "attio-automation",
+        "zoho-crm-automation", "gong-automation", "close-automation",
+        "instantly-automation", "hunter-automation", "lemlist-automation"
+      ]
+    },
+    "🛠️ Development & IT Skills": {
+      "id": "4e432d1a-1f91-41ac-a759-c3a5e408b5fd",
+      "url": "https://notebooklm.google.com/notebook/4e432d1a-1f91-41ac-a759-c3a5e408b5fd",
+      "skills_count": 12,
+      "skills": [
+        "github-automation", "vercel-automation", "supabase-automation",
+        "cpanel-deployer", "docker-hub-automation", "sentry-automation",
+        "n8n-workflow-manager", "mcp-builder", "webapp-testing",
+        "neon-automation", "cloudflare-automation", "render-automation"
+      ]
+    },
+    "📊 Data & Analytics Skills": {
+      "id": "7a37d928-0ce0-4b0f-8b6f-88684983de1b",
+      "url": "https://notebooklm.google.com/notebook/7a37d928-0ce0-4b0f-8b6f-88684983de1b",
+      "skills_count": 6,
+      "skills": [
+        "airtable-automation", "googlesheets-automation", "bigquery-automation",
+        "firecrawl-automation", "mixpanel-automation", "apify-automation"
+      ]
+    },
+    "🎨 Content & Design Skills": {
+      "id": "a5c763d6-b25a-428d-958a-955dc38638bd",
+      "url": "https://notebooklm.google.com/notebook/a5c763d6-b25a-428d-958a-955dc38638bd",
+      "skills_count": 6,
+      "skills": [
+        "canva-automation", "figma-automation", "webflow-automation",
+        "elevenlabs-automation", "heygen-automation", "cloudinary-automation"
+      ]
+    },
+    "💰 Finance, HR & Admin Skills": {
+      "id": "e0124706-20b6-4721-8d3c-1af2ba22a942",
+      "url": "https://notebooklm.google.com/notebook/e0124706-20b6-4721-8d3c-1af2ba22a942",
+      "skills_count": 5,
+      "skills": [
+        "stripe-automation", "quickbooks-automation", "xero-automation",
+        "bamboohr-automation", "harvest-automation"
+      ]
+    },
+    "🧠 AI & Strategy Skills": {
+      "id": "9c3487f2-b65c-46e9-a57a-0acbf0e30369",
+      "url": "https://notebooklm.google.com/notebook/9c3487f2-b65c-46e9-a57a-0acbf0e30369",
+      "skills_count": 5,
+      "skills": [
+        "saas-idea-validator", "competitor-analysis", "agency-builder",
+        "client-onboarding", "internal-comms"
+      ]
+    },
+    "⚡ Productivity Essentials": {
+      "id": "b2845185-8192-4a75-83b9-5d72d5c125b8",
+      "url": "https://notebooklm.google.com/notebook/b2845185-8192-4a75-83b9-5d72d5c125b8",
+      "skills_count": 13,
+      "skills": [
+        "slack-automation", "notion-automation", "gmail-automation",
+        "google-calendar-automation", "jira-automation", "trello-automation",
+        "clickup-automation", "zoom-automation", "teams-automation",
+        "google-drive-automation", "todoist-automation", "asana-automation",
+        "discord-automation"
+      ]
+    }
+  },
+  "total_skills_uploaded": 80,
+  "old_notebook": {
+    "id": "0eb2e536-0b2e-4f94-86ed-961c140ef348",
+    "name": "Awesome Claude Skills Inventory",
+    "note": "Contains summary index tables only, not full skill content. Can be kept for reference or deleted."
+  }
+}

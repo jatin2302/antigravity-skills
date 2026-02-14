@@ -1,0 +1,92 @@
+[
+  {
+    "id": "new-agency-startup",
+    "prompt": "I want to start a digital marketing agency focused on helping e-commerce brands with paid advertising. I have $10k to start, 5 years of experience running Facebook ads, and I want to hit $10k/month revenue within 6 months. Help me build this agency.",
+    "files": [],
+    "expectations": [
+      "Asks clarifying questions about target market, ideal client, and current resources",
+      "Creates a strategic foundation including positioning and service packages",
+      "Develops a pricing model with specific numbers based on the $10k/month goal",
+      "Provides a 6-month roadmap with milestones",
+      "Creates operational workflows for client acquisition and service delivery",
+      "Includes financial projections showing path to $10k/month",
+      "Produces actionable templates (proposals, contracts, etc.)",
+      "Addresses the $10k startup budget constraints realistically"
+    ]
+  },
+  {
+    "id": "existing-agency-analysis",
+    "prompt": "I have a small marketing agency doing social media management for local businesses. We have 8 clients paying $1,500/month each, but I'm working 70 hours a week and barely breaking even. I have one part-time contractor. What's wrong and how do I fix it?",
+    "files": [],
+    "expectations": [
+      "Conducts a thorough analysis of the current situation",
+      "Identifies profitability issues and cost structure problems",
+      "Analyzes workload distribution and identifies bottlenecks",
+      "Recommends operational improvements to reduce founder hours",
+      "Suggests pricing adjustments or service restructuring",
+      "Provides specific workflows to improve efficiency",
+      "Addresses team structure and when/how to hire",
+      "Creates a plan to improve margins while maintaining quality"
+    ]
+  },
+  {
+    "id": "agency-workflows",
+    "prompt": "Create a complete client onboarding workflow for a digital marketing agency that offers SEO, content marketing, and social media services.",
+    "files": [],
+    "expectations": [
+      "Creates step-by-step onboarding workflow",
+      "Includes templates for kickoff meetings, client briefs, etc.",
+      "Specifies communication touchpoints and timeline",
+      "Addresses internal handoffs between sales and delivery",
+      "Includes quality checkpoints",
+      "Provides specific deliverables at each stage",
+      "Creates checklists that can be used by team members",
+      "Considers different service types in the workflow"
+    ]
+  },
+  {
+    "id": "financial-model",
+    "prompt": "Build me a financial model for a content marketing agency. I want to understand pricing for different package tiers, project my revenue for the first year, and know when I'll be profitable.",
+    "files": [],
+    "expectations": [
+      "Creates tiered service packages with specific deliverables",
+      "Provides pricing for each tier with profit margin analysis",
+      "Includes cost breakdown (labor, tools, overhead)",
+      "Projects revenue for 12 months with client acquisition assumptions",
+      "Shows break-even analysis",
+      "Calculates key metrics (MRR, CAC, LTV)",
+      "Creates the model in spreadsheet format (.xlsx)",
+      "Includes both optimistic and conservative scenarios"
+    ]
+  },
+  {
+    "id": "agency-health-check",
+    "prompt": "Do a health check on my agency. We're at $50k/month revenue with 15 clients, 3 full-time employees, and we've been operating for 2 years. I want to know what's working, what needs improvement, and what I should focus on next.",
+    "files": [],
+    "expectations": [
+      "Creates a framework for assessing agency health",
+      "Evaluates financial metrics (revenue per client, profit margins, etc.)",
+      "Assesses operational efficiency and team utilization",
+      "Identifies growth opportunities and risks",
+      "Benchmarks against industry standards where relevant",
+      "Provides prioritized recommendations with rationale",
+      "Suggests specific KPIs to track going forward",
+      "Creates an action plan with 30-60-90 day priorities"
+    ]
+  },
+  {
+    "id": "service-expansion",
+    "prompt": "My agency currently only does Google Ads management. I want to expand our services to increase revenue per client. What services should I add and how do I structure this?",
+    "files": [],
+    "expectations": [
+      "Analyzes complementary services that fit with Google Ads",
+      "Recommends specific service additions with rationale",
+      "Addresses build vs. buy vs. partner decisions",
+      "Creates updated service packages with bundling strategy",
+      "Provides pricing guidance for new services",
+      "Outlines implementation plan including training/hiring needs",
+      "Considers upsell strategy for existing clients",
+      "Assesses risk and resource requirements"
+    ]
+  }
+]

@@ -1,0 +1,172 @@
+[
+  {
+    "id": "saas-project-management",
+    "prompt": "Find Reddit threads for my product:\n\nProduct: FlowTask\nDescription: Simple project management tool for small teams (under 10 people)\nNiche: Small business, startups, solopreneurs\nKey differentiator: Simpler than Asana, more structure than Trello\nCompetitors: Trello, Asana, Monday.com\nWebsite: flowtask.io\n\nFind 5 high-opportunity threads and write comment drafts.",
+    "files": [],
+    "expectations": [
+      "Searches for relevant Reddit threads about project management tools",
+      "Finds threads with questions like 'best project management tool', 'trello alternative', 'asana vs monday'",
+      "Prioritizes recent, active threads (posted within last 48 hours)",
+      "Scores opportunities as High/Medium/Low",
+      "Provides 5 specific thread recommendations with URLs (or search strategies if no web search)",
+      "Drafts natural-sounding comments for each thread",
+      "Comments mention FlowTask alongside competitors (not just promoting FlowTask)",
+      "Includes transparency about affiliation",
+      "Comments add value beyond just the pitch",
+      "Varies comment structure across threads (not copy-paste)",
+      "Follows Reddit tone (conversational, helpful, not salesy)"
+    ]
+  },
+  {
+    "id": "fitness-supplement",
+    "prompt": "Reddit outreach for:\n\nProduct: GreenVitality (organic protein powder)\nNiche: Fitness, health, nutrition\nTarget audience: Health-conscious gym-goers, plant-based athletes\nKey benefit: Clean ingredients, no artificial sweeteners\nCompetitors: Orgain, Vega, Garden of Life\n\nFind threads and create comments.",
+    "files": [],
+    "expectations": [
+      "Identifies relevant fitness/nutrition subreddits (r/fitness, r/Supplements, r/veganfitness, etc.)",
+      "Finds threads asking for protein powder recommendations or discussing supplements",
+      "Creates comments that acknowledge user's specific requirements",
+      "Mentions multiple options including competitors",
+      "Doesn't make exaggerated health claims",
+      "Tone is empathetic and community-focused",
+      "Addresses common concerns (taste, mixability, price)",
+      "Provides comparison vs competitors honestly",
+      "Includes soft CTA or offer to answer questions",
+      "Avoids spam patterns that get banned in fitness subs"
+    ]
+  },
+  {
+    "id": "competitor-alternative-thread",
+    "prompt": "Create comment for this specific thread:\n\nThread Title: 'Looking for Asana alternative - too complex for our small team'\nSubreddit: r/startups\nPosted: 2 hours ago\nOP says: 'We're a 5-person team and Asana feels like overkill. Need something simpler but more organized than Trello. Budget is tight. What do you recommend?'\n\nMy Product: FlowTask (simple PM tool for small teams)\nCompetitors: Trello, ClickUp, Basecamp",
+    "files": [],
+    "expectations": [
+      "Acknowledges OP's specific pain points (Asana too complex, budget constraints)",
+      "Provides multiple options, not just FlowTask",
+      "Addresses the 'simpler than Asana, more structured than Trello' requirement",
+      "Mentions budget considerations",
+      "Creates authentic-sounding comment that fits Reddit culture",
+      "Includes transparency about affiliation with FlowTask",
+      "Doesn't oversell or make guarantees",
+      "Offers to answer follow-up questions",
+      "Comment length appropriate (2-3 paragraphs)",
+      "Could reasonably get upvotes from community"
+    ]
+  },
+  {
+    "id": "spam-avoidance",
+    "prompt": "Create 3 different comments for these threads, demonstrating variety to avoid spam detection:\n\nThread 1: 'What project management tool do you use?'\nThread 2: 'Trello vs Asana - which is better?'\nThread 3: 'Need help organizing my team's tasks'\n\nProduct: FlowTask\nGoal: Show how to vary approach across multiple threads",
+    "files": [],
+    "expectations": [
+      "Creates 3 distinctly different comment structures",
+      "Varies opening hooks and approaches",
+      "Different tone/style across comments",
+      "Not copy-paste with minor edits",
+      "Some mention FlowTask, maybe one focuses just on being helpful",
+      "Different positioning angles",
+      "Demonstrates spam avoidance techniques",
+      "Shows authentic engagement patterns",
+      "Varies comment length across the three",
+      "At least one comment doesn't include link/product name (pure value-add)"
+    ]
+  },
+  {
+    "id": "opportunity-scoring",
+    "prompt": "Score these 5 Reddit threads for outreach opportunity:\n\nThread A: 'Best PM tool for enterprise teams?' (r/projectmanagement, 12 days old, 200 comments)\nThread B: 'What do you use to track personal goals?' (r/productivity, 3 hours old, 5 comments)\nThread C: 'Struggling to keep team organized, need recommendations' (r/smallbusiness, 6 hours ago, 15 comments, OP actively responding)\nThread D: 'Monday.com vs Asana comparison' (r/SaaS, 2 days old, 45 comments)\nThread E: 'Just switched from Trello to [Your Tool] and loving it' (r/startups, 1 day old, 8 comments)\n\nProduct: FlowTask (small team PM tool)",
+    "files": [],
+    "expectations": [
+      "Scores each thread as High/Medium/Low opportunity",
+      "Considers recency (Thread A is too old)",
+      "Considers relevance (Thread A is enterprise, FlowTask is small teams)",
+      "Considers engagement (Thread C has active OP - good sign)",
+      "Considers competition (Thread D is crowded)",
+      "Identifies Thread C as highest opportunity",
+      "Thread B is somewhat relevant but different category",
+      "Thread E might be good for engagement but not promotion",
+      "Provides reasoning for each score",
+      "Recommends which threads to prioritize"
+    ]
+  },
+  {
+    "id": "transparent-disclosure",
+    "prompt": "Write a comment that properly discloses affiliation:\n\nThread: 'Honest reviews of project management tools?'\nSubreddit: r/Entrepreneur (strict about self-promotion)\nOP wants unbiased opinions\n\nProduct: FlowTask (you're the founder)",
+    "files": [],
+    "expectations": [
+      "Includes clear disclosure of affiliation",
+      "Phrases like 'Full disclosure: I built FlowTask' or 'I work on FlowTask'",
+      "Maintains honesty about competitors",
+      "Doesn't oversell despite being founder",
+      "Acknowledges other tools' strengths",
+      "Provides genuinely helpful comparison",
+      "Respects subreddit's anti-promotion stance",
+      "Positions as 'here's my biased take, but trying to be fair'",
+      "Doesn't hide relationship when direct question about reviews",
+      "Shows that transparency can work on Reddit"
+    ]
+  },
+  {
+    "id": "no-link-value-add",
+    "prompt": "Create a helpful comment that adds value WITHOUT mentioning your product:\n\nThread: 'How do you keep your team aligned on priorities?'\nSubreddit: r/startups\n\nProduct: FlowTask (PM tool)\nGoal: Build karma and credibility by just being helpful",
+    "files": [],
+    "expectations": [
+      "Does NOT mention FlowTask at all",
+      "Provides genuinely useful advice",
+      "Shares frameworks or approaches for team alignment",
+      "Might mention tools generically but not promoting specific one",
+      "Shows expertise without pitching",
+      "Builds credibility as community member",
+      "Could earn upvotes on merit alone",
+      "Demonstrates spam avoidance (not every comment is promotional)",
+      "Sets up account as valuable contributor",
+      "Shows understanding of long-term Reddit strategy"
+    ]
+  },
+  {
+    "id": "negative-feedback-response",
+    "prompt": "You posted a comment mentioning FlowTask. Someone replied:\n\n'This looks like spam. Stop promoting your product in every thread.'\n\nHow do you respond?",
+    "files": [],
+    "expectations": [
+      "Does NOT get defensive or argumentative",
+      "Acknowledges the feedback",
+      "Apologizes if came across as spammy",
+      "Explains intent (was trying to be helpful)",
+      "Doesn't make excuses",
+      "Shows willingness to adjust approach",
+      "Professional and gracious tone",
+      "Might offer to delete comment if they want",
+      "Takes accountability",
+      "Shows how to handle criticism on Reddit"
+    ]
+  },
+  {
+    "id": "link-strategy",
+    "prompt": "Show 3 different approaches to linking:\n\nScenario 1: Thread allows links, OP explicitly asked for website recommendations\nScenario 2: Subreddit is anti-self-promotion but discussion is relevant\nScenario 3: Someone replied to your comment asking 'what's the tool called?'\n\nProduct: FlowTask\nWebsite: flowtask.io",
+    "files": [],
+    "expectations": [
+      "Scenario 1: Includes link naturally with context",
+      "Scenario 2: Mentions product name but offers to DM link instead of posting",
+      "Scenario 3: Provides name and offers link via DM or says 'not sure if links allowed here'",
+      "Shows understanding of different link strategies",
+      "Adapts to subreddit rules and context",
+      "Knows when linking is safe vs risky",
+      "Doesn't force links where inappropriate",
+      "Demonstrates risk-aware approach",
+      "Each scenario uses different tactic appropriately"
+    ]
+  },
+  {
+    "id": "output-format-check",
+    "prompt": "Find threads and create outreach plan for:\n\nProduct: BudgetBuddy (personal finance app)\nNiche: Personal finance, budgeting\nTarget: Young professionals, first-time budgeters\n\nDeliver in the specified format with thread list and comment drafts.",
+    "files": [],
+    "expectations": [
+      "Delivers output in structured format specified in skill",
+      "Includes thread list with URLs, subreddits, opportunity scores",
+      "Provides comment drafts for each thread",
+      "Includes multiple comment variations (Option A, Option B)",
+      "Thread list prioritized (High priority first)",
+      "Notes about subreddit rules included",
+      "Engagement strategy section present",
+      "Clear opportunity scoring explained",
+      "Ready-to-use output format",
+      "Professional presentation"
+    ]
+  }
+]
