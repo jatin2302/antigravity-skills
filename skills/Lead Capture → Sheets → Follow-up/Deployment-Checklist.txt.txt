@@ -1,0 +1,9 @@
+- Import the workflow JSON into n8n
+- Connect Google Sheets credentials
+- Select the destination spreadsheet and sheet
+- Connect Gmail credentials
+- Review and customize the email subject and message content
+- Update CONFIG – Normalize Lead (Edit Here) to map the incoming webhook payload to the standard lead fields
+- (Optional) Configure WhatsApp provider credentials
+- Activate the workflow
+- Test by sending a sample lead to the webhook endpoint

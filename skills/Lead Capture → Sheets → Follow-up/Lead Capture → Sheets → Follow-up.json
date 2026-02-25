@@ -1,0 +1,192 @@
+{
+  "name": "Lead Capture → Sheets → Follow-up",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "lead-capture",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2.1,
+      "position": [
+        -672,
+        96
+      ],
+      "id": "f3958657-ec26-4e34-acbe-0708568a090b",
+      "name": "Webhook",
+      "webhookId": "0e1a7154-d72f-4a32-b264-40333350bc59"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "3832b682-a3e8-442a-a829-0218827dc8ea",
+              "name": "Timestamp",
+              "value": "={{ $now }}",
+              "type": "string"
+            },
+            {
+              "id": "2d5492dc-1237-48b8-90ee-8bc04f6818c6",
+              "name": "Name",
+              "value": "={{ $json.body.name }}",
+              "type": "string"
+            },
+            {
+              "id": "9c12ca64-5255-4ccf-a1d3-54a18c420244",
+              "name": "Email",
+              "value": "={{ $json.body.email }}",
+              "type": "string"
+            },
+            {
+              "id": "140a1821-04e4-48f3-b2da-a993878dab82",
+              "name": "Phone",
+              "value": "={{ $json.body.phone }}",
+              "type": "string"
+            },
+            {
+              "id": "bf6a2076-b1b1-434f-80e6-0159ff26aee2",
+              "name": "Message",
+              "value": "={{ $json.body.message }}",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        -448,
+        96
+      ],
+      "id": "aae67de8-cafb-4e8b-868f-448ed5526533",
+      "name": "TRANSFORM - Normalize Lead"
+    },
+    {
+      "parameters": {
+        "operation": "append",
+        "documentId": {
+          "__rl": true,
+          "mode": "list",
+          "value": ""
+        },
+        "sheetName": {
+          "__rl": true,
+          "mode": "list",
+          "value": ""
+        }
+      },
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.7,
+      "position": [
+        -224,
+        96
+      ],
+      "id": "118a676d-2229-470b-815a-44e999775b9f",
+      "name": "STORE - Google Sheets (Lead)"
+    },
+    {
+      "parameters": {
+        "sendTo": "={{ $('Webhook').item.json.body.Email }}",
+        "subject": "=Thank you, we received your request.",
+        "message": "=Hi {{ $('Webhook').item.json.body.name }}\n\nThanks for reaching out. We’ve received your request and will get back to you shortly.\n\nBest regards\n",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.gmail",
+      "typeVersion": 2.2,
+      "position": [
+        0,
+        0
+      ],
+      "id": "c6d4c6fa-c467-460e-b740-9588f8d252a2",
+      "name": "NOTIFY - Email (Lead Follow-up)",
+      "webhookId": "fbd8efbe-a650-4e84-8c1f-9fc470659047"
+    },
+    {
+      "parameters": {
+        "operation": "send",
+        "recipientPhoneNumber": "={{ $('Webhook').item.json.body.Phone }}",
+        "textBody": "=Hi {{ $('Webhook').item.json.body.Name }}, \nThanks for reaching out. We’ve received your request and will get back to you shortly.",
+        "additionalFields": {}
+      },
+      "type": "n8n-nodes-base.whatsApp",
+      "typeVersion": 1.1,
+      "position": [
+        0,
+        192
+      ],
+      "id": "887e270b-1bc9-47f6-9b2c-18a402a5105b",
+      "name": "NOTIFY – WhatsApp (Lead Follow-up)",
+      "webhookId": "72f9d527-31bd-4c12-82f8-c592fba7e6b1"
+    },
+    {
+      "parameters": {
+        "content": "SETUP OVERVIEW\n\n1. Open “TRANSFORM - Normalize Lead” and map the incoming webhook payload to the standard lead fields:\n   - name\n   - email\n   - phone\n   - message\n\n2. Open “STORE – Google Sheets (Lead)”:\n   - Connect Google Sheets credentials\n   - Select the destination spreadsheet and sheet\n   - Use Map columns automatically function or manually map each column to the lead fields.\n\n3. Open “NOTIFY – Email (Lead Follow-up)”:\n   - Connect Gmail credentials\n   - Adjust sender, Email recipient, subject, and message text.\n\n4. (Optional) Open “NOTIFY – WhatsApp (Lead Follow-up)”:\n   - Configure WhatsApp provider credentials\n   - Email recipient and message text.\n   - Messages are sent only if a valid phone number is provided.\n\n5. Activate the workflow.\n\n6. Send a test request to the production webhook URL to verify the setup.\n\n\nNOTES\n\n- If the lead source changes, only the normalization step needs to be updated.\n- WhatsApp notifications are skipped if phone data is missing or invalid.",
+        "height": 736,
+        "width": 656
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        -1392,
+        -224
+      ],
+      "id": "8ea0fd80-cac3-48dc-8b81-6016224128be",
+      "name": "Sticky Note"
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Webhook": {
+      "main": [
+        [
+          {
+            "node": "TRANSFORM - Normalize Lead",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "TRANSFORM - Normalize Lead": {
+      "main": [
+        [
+          {
+            "node": "STORE - Google Sheets (Lead)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "STORE - Google Sheets (Lead)": {
+      "main": [
+        [
+          {
+            "node": "NOTIFY - Email (Lead Follow-up)",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "NOTIFY – WhatsApp (Lead Follow-up)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "availableInMCP": false
+  },
+  "versionId": "3db2f7a6-e3d2-4702-82f9-4fc1c7350de4",
+  "meta": {
+    "instanceId": "bfb736ae6661fba7304c4770abfaca9e3e50bca85cdab0792eaef364a27c4341"
+  },
+  "id": "KUWwVJac0DRVf4m5",
+  "tags": []
+}
