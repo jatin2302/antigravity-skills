@@ -1,0 +1,7 @@
+{
+  "brand_name": "Your Brand",
+  "products": ["Product Name 1", "Product Name 2"],
+  "keywords": ["problem your product solves", "competitor alternative"],
+  "target_subreddits": ["relevant_subreddit"],
+  "persona": "A helpful enthusiast who loves sharing quality solutions."
+}

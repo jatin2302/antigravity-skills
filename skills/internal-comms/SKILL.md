@@ -1,68 +1,32 @@
 ---
 name: internal-comms
 description: A set of resources to help me write all kinds of internal communications, using the formats that my company likes to use. Claude should use this skill whenever asked to write some sort of internal communications (status reports, leadership updates, 3P updates, company newsletters, FAQs, incident reports, project updates, etc.).
+license: Complete terms in LICENSE.txt
 ---
 
-# Internal Communications & Client Reports
+## When to use this skill
+To write internal communications, use this skill for:
+- 3P updates (Progress, Plans, Problems)
+- Company newsletters
+- FAQ responses
+- Status reports
+- Leadership updates
+- Project updates
+- Incident reports
 
-Templates and frameworks for professional client communication and internal reporting.
+## How to use this skill
 
-## When to Use This Skill
-- Writing client status reports
-- Creating project update emails
-- Drafting proposals and scope documents
-- Writing incident or delay notifications
-- Creating professional meeting agendas and minutes
+To write any internal communication:
 
-## Communication Types
+1. **Identify the communication type** from the request
+2. **Load the appropriate guideline file** from the `examples/` directory:
+    - `examples/3p-updates.md` - For Progress/Plans/Problems team updates
+    - `examples/company-newsletter.md` - For company-wide newsletters
+    - `examples/faq-answers.md` - For answering frequently asked questions
+    - `examples/general-comms.md` - For anything else that doesn't explicitly match one of the above
+3. **Follow the specific instructions** in that file for formatting, tone, and content gathering
 
-### 1. Client Status Report
-**Frequency**: Weekly
-**Format**:
-- **Highlights** (2-3 wins this week)
-- **In Progress** (current tasks with % completion)
-- **Upcoming** (next week's plan)
-- **Blockers** (anything needing client input)
-- **Metrics Snapshot** (key KPIs)
+If the communication type doesn't match any existing guideline, ask for clarification or more context about the desired format.
 
-### 2. Project Proposal
-**Use when**: Pitching new work or upselling
-- Executive Summary (1 paragraph)
-- Scope of Work (deliverables table)
-- Timeline & Milestones
-- Investment (pricing)
-- Terms & Conditions
-
-### 3. Delay/Issue Notification
-**Use when**: Something goes wrong
-- What happened (factual, no blame)
-- Impact on timeline/deliverables
-- What we're doing to fix it
-- Revised timeline
-- Prevention measures
-
-### 4. Meeting Agenda
-- Duration and attendees
-- Topics with time allocation
-- Pre-read materials
-- Action items from previous meeting
-
-### 5. Monthly Performance Report
-- KPI dashboard (rankings, traffic, conversions)
-- Work completed this month
-- ROI calculations
-- Recommendations for next month
-- Client approval items
-
-## Tone Guidelines
-- Professional but approachable
-- Data-driven (always include numbers)
-- Solution-oriented (problems come with fixes)
-- Concise (respect client's time)
-- Proactive (flag issues early)
-
-## Usage
-- "Write a weekly status update for my SEO client."
-- "Draft a proposal for adding PPC services to this account."
-- "Create a professional delay notification about the site migration."
-- "Prepare a monthly report template for SEO performance."
+## Keywords
+3P updates, company newsletter, company comms, weekly update, faqs, common questions, updates, internal comms
