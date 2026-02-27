@@ -3,49 +3,63 @@ name: client-onboarding
 description: Systematic client onboarding and project management workflow. Covers data entry, contracts, invoicing, resource gathering, and milestone references for the first month. Use when onboarding new clients or managing the initial phase of a project.
 ---
 
-# Client Onboarding & Project Management
+# Client Onboarding & Work Management
 
-**Purpose:** Ensure a smooth, professional, and consistent onboarding experience for every new client.
+Systematic workflow for bringing new clients on board and managing ongoing work efficiently.
 
-## 1. The Client Onboarding Checklist
-This 18-step process ensures all necessary agreements, payments, and resources are secured before work begins.
+## When to Use This Skill
+- Onboarding a new SEO/marketing client
+- Setting up project tracking for a new engagement
+- Creating client communication schedules
+- Building deliverable trackers
+- Managing the first 30 days of a client relationship
 
-1.  **Data Entry:** Get basic details of the client and upload them into the CRM.
-2.  **Proposal:** Send proposals to the client.
-3.  **Agreement:** Check if the client agrees with the proposal.
-4.  **Contracts:** Make sure proposals or contracts are signed.
-5.  **Invoicing:** Send the invoice and schedule the first onboarding welcome call.
-6.  **Payment Verification:** Check if a 50% payment has been received. If yes, send a welcome email.
-7.  **Information Gathering:** Send a questionnaire asking for more specific details.
-8.  **Resource Request:** Request access to necessary resources (e.g., accounts, logos).
-9.  **Resource Verification:** Check if the needed files, images, and resources have been received.
-10. **Project Launch:** Confirm if the project has started.
-11. **Planning:** Create a proper plan for the project.
-12. **Scheduling:** Schedule future calls and set meeting points.
-13. **Week 1 Milestone:** Confirm completion of the first week of the project.
-14. **Week 2 Milestone:** Confirm completion of the second week.
-15. **Mid-Project Update:** Conduct a follow-up call and report to the client.
-16. **Week 3 Milestone:** Confirm completion of the third week.
-17. **Week 4 Milestone:** Confirm completion of the fourth week (1 month completed).
-18. **Final Reporting:** Send a "Big Report of Growth" demonstrating the progress made to the client.
+## Onboarding Checklist
 
-*Note:* This checklist is designed for the first month of a new client. After the first month, the workflow shifts to setting up weekly calls and reports.
+### Day 0: Deal Closed
+- [ ] Send welcome email with next steps
+- [ ] Create client folder (Google Drive / Notion)
+- [ ] Set up project in PM tool (ClickUp, Notion, etc.)
+- [ ] Send contract for e-signature
+- [ ] Send first invoice
 
-## 2. Services & Pricing Structure (Reference)
-*   **Social Media:** Management (~Rs. 20k/mo) and Marketing (~Rs. 40k/mo).
-*   **SEO:** Monthly services Rs. 30k-40k (or $997 standard foreign price).
-*   **Web Design:** ~Rs. 25k for a 4-page website.
-*   **Ads Management:** Base fee (~Rs. 20k) + 10% of profit.
-*   **Reddit Marketing:** $5-$20 per comment.
-*   **Reputation Management (ORM):** Reviews and removal of negative content.
-*   **Content:** Copywriting (Rs. 5/word) and VSLs (Rs. 15k/video).
+### Day 1-3: Discovery
+- [ ] Schedule kickoff call
+- [ ] Send onboarding questionnaire (business goals, access credentials, brand guidelines)
+- [ ] Request access: Google Analytics, Search Console, CMS, hosting
+- [ ] Document current state (baseline audit)
 
-## 3. Lead & Project Management
-*   **Status Tracking:** Leads are categorized as *New lead, In progress, Closed, Not interested, Completed,* or *Payment Pending*.
-*   **Source Tracking:** Track if leads come from *BHW, Reddit, LinkedIn, Website, or Referrals*.
-*   **Worker Allocation:** Assign tasks to specific workers (e.g., "Ben Arthur BHW," "Tank") with contact details in dashboard.
+### Day 4-7: Setup
+- [ ] Complete initial audit (technical SEO, content, backlinks)
+- [ ] Set up reporting dashboard
+- [ ] Create task list for Month 1 deliverables
+- [ ] Share timeline with client
 
-## 4. Outreach Workflow (Reference)
-*   **Initial Outreach:** Email identifying client needs and offering a call.
-*   **Follow-up Sequence:** First Follow-up -> Second Follow-up -> Final Email.
-*   **Phone Script:** Structure for discovery call (Intro -> Needs Assessment -> Next Steps).
+### Day 8-30: Execution
+- [ ] Begin Month 1 deliverables
+- [ ] Weekly status update email
+- [ ] Bi-weekly check-in call
+- [ ] Document wins and quick fixes
+
+## Communication Templates
+
+### Welcome Email
+Subject: Welcome to [Agency Name] — Here's What Happens Next
+
+### Weekly Update
+Subject: [Client Name] — Week [X] Update
+
+### Monthly Report
+Subject: [Client Name] — [Month] SEO Performance Report
+
+## Work Management Rules
+- **Response time**: <4 hours during business hours
+- **Updates**: Weekly written + bi-weekly call
+- **Scope changes**: Written approval required
+- **Escalation**: If no response in 48 hours, follow up
+
+## Usage
+- "Onboard a new SEO client — walk me through the steps."
+- "Draft a welcome email for a new client."
+- "Create a 30-day onboarding plan for this project."
+- "Set up a deliverable tracker for this 6-month engagement."
