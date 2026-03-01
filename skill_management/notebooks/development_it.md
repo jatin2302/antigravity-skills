@@ -1,6 +1,6 @@
 # Skills - Development & IT
 
-Total Skills: 111
+Total Skills: 113
 
 | Name | Folder | Description |
 | :--- | :--- | :--- |
@@ -43,6 +43,7 @@ Total Skills: 111
 | **cPanel Deployer** | `cpanel-deployer` | Automate the deployment of PHP/MySQL applications to cPanel environments, including database creation and file uploads. |
 | **currents-api-automation** | `currents-api-automation` | Automate Currents API tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | **datadog-automation** | `datadog-automation` | Automate Datadog tasks via Rube MCP (Composio): query metrics, search logs, manage monitors/dashboards, create events and downtimes. Always search tools first for current schemas. |
+| **Dev Browser** | `dev-browser` | Skill for Dev Browser. |
 | **developer-growth-analysis** | `developer-growth-analysis` | Analyzes your recent Claude Code chat history to identify coding patterns, development gaps, and areas for improvement, curates relevant learning resources from HackerNews, and automatically sends a personalized growth report to your Slack DMs. |
 | **dictionary-api-automation** | `dictionary-api-automation` | Automate Dictionary API tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | **digital-ocean-automation** | `digital-ocean-automation` | Automate DigitalOcean tasks via Rube MCP (Composio). Always search tools first for current schemas. |
@@ -50,6 +51,7 @@ Total Skills: 111
 | **Docker Hub Automation** | `docker-hub-automation` | Automate Docker Hub operations -- manage organizations, repositories, teams, members, and webhooks via the Composio MCP integration. |
 | **docker_hub-automation** | `docker_hub-automation` | Automate Docker Hub tasks via Rube MCP (Composio): repositories, images, tags, and container registry management. Always search tools first for current schemas. |
 | **eodhd-apis-automation** | `eodhd-apis-automation` | Automate Eodhd Apis tasks via Rube MCP (Composio). Always search tools first for current schemas. |
+| **Fastestrank** | `fastestrank` | Skill for Fastestrank . |
 | **fidel-api-automation** | `fidel-api-automation` | Automate Fidel API tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | **file-organizer** | `file-organizer` | Intelligently organizes your files and folders across your computer by understanding context, finding duplicates, suggesting better structures, and automating cleanup tasks. Reduces cognitive load and keeps your digital workspace tidy without manual effort. |
 | **FreshBooks Automation** | `freshbooks-automation` | FreshBooks Automation: manage businesses, projects, time tracking, and billing in FreshBooks cloud accounting |

@@ -1,8 +1,8 @@
 # Awesome Claude Skills - Master Inventory
 
-Total Skills: 1002
+Total Skills: 1021
 
-### Development & IT (111)
+### Development & IT (113)
 
 | Name | Folder | Description |
 | :--- | :--- | :--- |
@@ -45,6 +45,7 @@ Total Skills: 1002
 | **cPanel Deployer** | `cpanel-deployer` | Automate the deployment of PHP/MySQL applications to cPanel environments, including database creation and file uploads. |
 | **currents-api-automation** | `currents-api-automation` | Automate Currents API tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | **datadog-automation** | `datadog-automation` | Automate Datadog tasks via Rube MCP (Composio): query metrics, search logs, manage monitors/dashboards, create events and downtimes. Always search tools first for current schemas. |
+| **Dev Browser** | `dev-browser` | Skill for Dev Browser. |
 | **developer-growth-analysis** | `developer-growth-analysis` | Analyzes your recent Claude Code chat history to identify coding patterns, development gaps, and areas for improvement, curates relevant learning resources from HackerNews, and automatically sends a personalized growth report to your Slack DMs. |
 | **dictionary-api-automation** | `dictionary-api-automation` | Automate Dictionary API tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | **digital-ocean-automation** | `digital-ocean-automation` | Automate DigitalOcean tasks via Rube MCP (Composio). Always search tools first for current schemas. |
@@ -52,6 +53,7 @@ Total Skills: 1002
 | **Docker Hub Automation** | `docker-hub-automation` | Automate Docker Hub operations -- manage organizations, repositories, teams, members, and webhooks via the Composio MCP integration. |
 | **docker_hub-automation** | `docker_hub-automation` | Automate Docker Hub tasks via Rube MCP (Composio): repositories, images, tags, and container registry management. Always search tools first for current schemas. |
 | **eodhd-apis-automation** | `eodhd-apis-automation` | Automate Eodhd Apis tasks via Rube MCP (Composio). Always search tools first for current schemas. |
+| **Fastestrank** | `fastestrank` | Skill for Fastestrank . |
 | **fidel-api-automation** | `fidel-api-automation` | Automate Fidel API tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | **file-organizer** | `file-organizer` | Intelligently organizes your files and folders across your computer by understanding context, finding duplicates, suggesting better structures, and automating cleanup tasks. Reduces cognitive load and keeps your digital workspace tidy without manual effort. |
 | **FreshBooks Automation** | `freshbooks-automation` | FreshBooks Automation: manage businesses, projects, time tracking, and billing in FreshBooks cloud accounting |
@@ -118,7 +120,7 @@ Total Skills: 1002
 | **writing-skills** | `writing-skills` | Use when creating new skills, editing existing skills, or verifying skills work before deployment |
 | **zyte-api-automation** | `zyte-api-automation` | Automate Zyte API tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 
-### Automation & Integration (635)
+### Automation & Integration (636)
 
 | Name | Folder | Description |
 | :--- | :--- | :--- |
@@ -666,6 +668,7 @@ Total Skills: 1002
 | **smtp2go-automation** | `smtp2go-automation` | Automate Smtp2go tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | **smugmug-automation** | `smugmug-automation` | Automate Smugmug tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | **sourcegraph-automation** | `sourcegraph-automation` | Automate Sourcegraph tasks via Rube MCP (Composio). Always search tools first for current schemas. |
+| **Spline 3D Integration** | `spline-3d-integration` | Skill for Spline 3D Integration. |
 | **splitwise-automation** | `splitwise-automation` | Automate Splitwise tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | **spoki-automation** | `spoki-automation` | Automate Spoki tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | **spondyr-automation** | `spondyr-automation` | Automate Spondyr tasks via Rube MCP (Composio). Always search tools first for current schemas. |
@@ -1000,7 +1003,7 @@ Total Skills: 1002
 | **QuickBooks Automation** | `quickbooks-automation` | QuickBooks Automation: manage invoices, customers, accounts, and payments in QuickBooks Online for streamlined bookkeeping |
 | **Wave Accounting Automation** | `wave-accounting-automation` | Wave Accounting toolkit is not currently available as a native integration. No Wave-specific tools were found in the Composio platform. This skill is a placeholder pending future integration. |
 
-### HR & Admin (22)
+### HR & Admin (23)
 
 | Name | Folder | Description |
 | :--- | :--- | :--- |
@@ -1014,6 +1017,7 @@ Total Skills: 1002
 | **Clockify Automation** | `clockify-automation` | Automate time tracking workflows in Clockify -- create and manage time entries, workspaces, and users through natural language commands. |
 | **drip-jobs-automation** | `drip-jobs-automation` | Automate Drip Jobs tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | **Eventbrite Automation** | `eventbrite-automation` | Automate Eventbrite event management, attendee tracking, organization discovery, and category browsing through natural language commands |
+| **Finding Reddit Threads** | `finding-reddit-threads` | Skill for Finding Reddit Threads. |
 | **google-admin-automation** | `google-admin-automation` | Automate Google Workspace Admin tasks via Rube MCP (Composio): manage users, groups, memberships, suspend accounts, create users, add aliases. Always search tools first for current schemas. |
 | **google_admin-automation** | `google_admin-automation` | Automate Google Admin tasks via Rube MCP (Composio): user management, org units, groups, and domain administration. Always search tools first for current schemas. |
 | **googlecalendar-automation** | `googlecalendar-automation` | Automate Google Calendar tasks via Rube MCP (Composio). Always search tools first for current schemas. |
@@ -1044,12 +1048,27 @@ Total Skills: 1002
 | **storeganise-automation** | `storeganise-automation` | Automate Storeganise tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | **storerocket-automation** | `storerocket-automation` | Automate Storerocket tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 
-### Productivity (2)
+### Productivity (17)
 
 | Name | Folder | Description |
 | :--- | :--- | :--- |
+| **Auto Link Archiver** | `auto-link-archiver` | Skill for Auto Link Archiver. |
+| **Blast Protocol** | `blast-protocol` | Skill for Blast Protocol. |
+| **Brand Identity** | `brand-identity` | Skill for Brand Identity. |
 | **context-compression** | `context-compression` | This skill should be used when the user asks to "compress context", "summarize conversation history", "implement compaction", "reduce token usage", or mentions context compression, structured summarization, tokens-per-task optimization, or long-running agent sessions exceeding context limits. |
+| **Creative Content Engine** | `creative-content-engine` | Skill for Creative Content Engine. |
 | **dispatching-parallel-agents** | `dispatching-parallel-agents` | Use when facing 2+ independent tasks that can be worked on without shared state or sequential dependencies |
+| **Error Handling Patterns** | `error-handling-patterns` | Skill for Error Handling Patterns. |
+| **Flutter Publishing** | `flutter-publishing` | Skill for Flutter Publishing. |
+| **Instant Publish** | `instant-publish` | Skill for Instant Publish. |
+| **Integrating Notebooklm** | `integrating-notebooklm` | Skill for Integrating Notebooklm. |
+| **Last30Days** | `last30days` | Skill for Last30Days. |
+| **Lead Capture → Sheets → Follow Up** | `Lead Capture → Sheets → Follow-up` | Skill for Lead Capture → Sheets → Follow Up. |
+| **Mcp Google Sheets** | `mcp-google-sheets` | Skill for Mcp Google Sheets. |
+| **Niche Expert** | `niche-expert` | Skill for Niche Expert. |
+| **Reddit Worker Management** | `reddit-worker-management` | Skill for Reddit Worker Management. |
+| **Spline Skill** | `spline-skill` | Skill for Spline Skill. |
+| **Superpowers** | `superpowers` | Skill for Superpowers. |
 
 ### Other Tools & Utilities (23)
 

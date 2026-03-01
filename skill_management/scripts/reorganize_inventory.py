@@ -1,7 +1,8 @@
 import re
 import os
 
-INVENTORY_PATH = "/Users/jatinbhutani/.gemini/antigravity/skills/SKILL_INVENTORY.md"
+script_dir = os.path.dirname(os.path.abspath(__file__))
+INVENTORY_PATH = os.path.join(script_dir, "..", "SKILL_INVENTORY.md")
 
 # Defined Headers and their categorization logic (if needed) or fixed order
 ORDERED_CATEGORIES = [

@@ -1,6 +1,6 @@
 # Skills - Automation & Integration
 
-Total Skills: 635
+Total Skills: 636
 
 | Name | Folder | Description |
 | :--- | :--- | :--- |
@@ -548,6 +548,7 @@ Total Skills: 635
 | **smtp2go-automation** | `smtp2go-automation` | Automate Smtp2go tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | **smugmug-automation** | `smugmug-automation` | Automate Smugmug tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | **sourcegraph-automation** | `sourcegraph-automation` | Automate Sourcegraph tasks via Rube MCP (Composio). Always search tools first for current schemas. |
+| **Spline 3D Integration** | `spline-3d-integration` | Skill for Spline 3D Integration. |
 | **splitwise-automation** | `splitwise-automation` | Automate Splitwise tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | **spoki-automation** | `spoki-automation` | Automate Spoki tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | **spondyr-automation** | `spondyr-automation` | Automate Spondyr tasks via Rube MCP (Composio). Always search tools first for current schemas. |

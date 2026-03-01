@@ -1,8 +1,9 @@
 import os
 import re
 
-INVENTORY_PATH = "/Users/jatinbhutani/.gemini/antigravity/skills/SKILL_INVENTORY.md"
-OUTPUT_DIR = "/Users/jatinbhutani/.gemini/antigravity/skills/notebooks"
+script_dir = os.path.dirname(os.path.abspath(__file__))
+INVENTORY_PATH = os.path.join(script_dir, "..", "SKILL_INVENTORY.md")
+OUTPUT_DIR = os.path.join(script_dir, "..", "notebooks")
 
 def parse_inventory(path):
     with open(path, "r") as f:

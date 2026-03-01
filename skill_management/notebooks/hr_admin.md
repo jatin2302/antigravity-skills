@@ -1,6 +1,6 @@
 # Skills - HR & Admin
 
-Total Skills: 22
+Total Skills: 23
 
 | Name | Folder | Description |
 | :--- | :--- | :--- |
@@ -14,6 +14,7 @@ Total Skills: 22
 | **Clockify Automation** | `clockify-automation` | Automate time tracking workflows in Clockify -- create and manage time entries, workspaces, and users through natural language commands. |
 | **drip-jobs-automation** | `drip-jobs-automation` | Automate Drip Jobs tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | **Eventbrite Automation** | `eventbrite-automation` | Automate Eventbrite event management, attendee tracking, organization discovery, and category browsing through natural language commands |
+| **Finding Reddit Threads** | `finding-reddit-threads` | Skill for Finding Reddit Threads. |
 | **google-admin-automation** | `google-admin-automation` | Automate Google Workspace Admin tasks via Rube MCP (Composio): manage users, groups, memberships, suspend accounts, create users, add aliases. Always search tools first for current schemas. |
 | **google_admin-automation** | `google_admin-automation` | Automate Google Admin tasks via Rube MCP (Composio): user management, org units, groups, and domain administration. Always search tools first for current schemas. |
 | **googlecalendar-automation** | `googlecalendar-automation` | Automate Google Calendar tasks via Rube MCP (Composio). Always search tools first for current schemas. |
