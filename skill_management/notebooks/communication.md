@@ -1,12 +1,15 @@
 # Skills - Communication
 
-Total Skills: 47
+Total Skills: 83
 
 | Name | Folder | Description |
 | :--- | :--- | :--- |
 | **-2chat-automation** | `-2chat-automation` | Automate 2chat tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | **agencyzoom-automation** | `agencyzoom-automation` | Automate Agencyzoom tasks via Rube MCP (Composio). Always search tools first for current schemas. |
+| **benchmark-email-automation** | `benchmark-email-automation` | Automate Benchmark Email tasks via Rube MCP (Composio). Always search tools first for current schemas. |
+| **brevo-automation** | `brevo-automation` | Automate Brevo (Sendinblue) tasks via Rube MCP (Composio): manage email campaigns, create/edit templates, track senders, and monitor campaign performance. Always search tools first for current schemas. |
 | **cal-com-automation** | `cal-com-automation` | Automate Cal.com tasks via Rube MCP (Composio): manage bookings, check availability, configure webhooks, and handle teams. Always search tools first for current schemas. |
+| **callerapi-automation** | `callerapi-automation` | Automate Callerapi tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | **callingly-automation** | `callingly-automation` | Automate Callingly tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | **callpage-automation** | `callpage-automation` | Automate Callpage tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | **chatbotkit-automation** | `chatbotkit-automation` | Automate Chatbotkit tasks via Rube MCP (Composio). Always search tools first for current schemas. |
@@ -14,28 +17,54 @@ Total Skills: 47
 | **chatwork-automation** | `chatwork-automation` | Automate Chatwork tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | **chmeetings-automation** | `chmeetings-automation` | Automate Chmeetings tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | **clickmeeting-automation** | `clickmeeting-automation` | Automate Clickmeeting tasks via Rube MCP (Composio). Always search tools first for current schemas. |
+| **close-automation** | `close-automation` | Automate Close CRM tasks via Rube MCP (Composio): create leads, manage calls/SMS, handle tasks, and track notes. Always search tools first for current schemas. |
+| **Customer.io Automation** | `customerio-automation` | Automate customer engagement workflows including broadcast triggers, message analytics, segment management, and newsletter tracking through Customer.io via Composio |
 | **dialmycalls-automation** | `dialmycalls-automation` | Automate Dialmycalls tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | **discord-automation** | `discord-automation` | Automate Discord tasks via Rube MCP (Composio): messages, channels, roles, webhooks, reactions. Always search tools first for current schemas. |
 | **discordbot-automation** | `discordbot-automation` | Automate Discordbot tasks via Rube MCP (Composio). Always search tools first for current schemas. |
+| **Docker Hub Automation** | `docker-hub-automation` | Automate Docker Hub operations -- manage organizations, repositories, teams, members, and webhooks via the Composio MCP integration. |
+| **ElevenLabs Automation** | `elevenlabs-automation` | Automate ElevenLabs text-to-speech workflows -- generate speech from text, browse and inspect voices, check subscription limits, list models, stream audio, and retrieve history via the Composio MCP integration. |
+| **emailable-automation** | `emailable-automation` | Automate Emailable tasks via Rube MCP (Composio). Always search tools first for current schemas. |
+| **emaillistverify-automation** | `emaillistverify-automation` | Automate Emaillistverify tasks via Rube MCP (Composio). Always search tools first for current schemas. |
+| **emailoctopus-automation** | `emailoctopus-automation` | Automate Emailoctopus tasks via Rube MCP (Composio). Always search tools first for current schemas. |
+| **enginemailer-automation** | `enginemailer-automation` | Automate Enginemailer tasks via Rube MCP (Composio). Always search tools first for current schemas. |
+| **freshdesk-automation** | `freshdesk-automation` | Automate Freshdesk helpdesk operations including tickets, contacts, companies, notes, and replies via Rube MCP (Composio). Always search tools first for current schemas. |
+| **freshservice-automation** | `freshservice-automation` | Automate Freshservice ITSM tasks via Rube MCP (Composio): create/update tickets, bulk operations, service requests, and outbound emails. Always search tools first for current schemas. |
 | **gmail-automation** | `gmail-automation` | Automate Gmail tasks via Rube MCP (Composio): send/reply, search, labels, drafts, attachments. Always search tools first for current schemas. |
+| **Gong Automation** | `gong-automation` | Automate Gong conversation intelligence -- retrieve call recordings, transcripts, detailed analytics, speaker stats, and workspace data -- using natural language through the Composio MCP integration. |
 | **google-calendar-automation** | `google-calendar-automation` | Automate Google Calendar events, scheduling, availability checks, and attendee management via Rube MCP (Composio). Create events, find free slots, manage attendees, and list calendars programmatically. |
 | **google-drive-automation** | `google-drive-automation` | Automate Google Drive file operations (upload, download, search, share, organize) via Rube MCP (Composio). Upload/download files, manage folders, share with permissions, and search across drives programmatically. |
 | **googlemeet-automation** | `googlemeet-automation` | Automate Google Meet tasks via Rube MCP (Composio): create Meet spaces, schedule video conferences via Calendar events, manage meeting access. Always search tools first for current schemas. |
+| **googlesheets-automation** | `googlesheets-automation` | Automate Google Sheets operations (read, write, format, filter, manage spreadsheets) via Rube MCP (Composio). Read/write data, manage tabs, apply formatting, and search rows programmatically. |
 | **Gorgias Automation** | `gorgias-automation` | Automate e-commerce customer support workflows in Gorgias -- manage tickets, customers, tags, and teams through natural language commands. |
+| **GroqCloud Automation** | `groqcloud-automation` | Automate AI inference, chat completions, audio translation, and TTS voice management through GroqCloud's high-performance API via Composio |
 | **helpdesk-automation** | `helpdesk-automation` | Automate HelpDesk tasks via Rube MCP (Composio): list tickets, manage views, use canned responses, and configure custom fields. Always search tools first for current schemas. |
+| **hubspot-automation** | `hubspot-automation` | Automate HubSpot CRM operations (contacts, companies, deals, tickets, properties) via Rube MCP using Composio integration. |
+| **Hunter Automation** | `hunter-automation` | Automate Hunter.io email intelligence -- search domains for email addresses, find specific contacts, verify email deliverability, manage leads, and monitor account usage -- using natural language through the Composio MCP integration. |
+| **Instantly Automation** | `instantly-automation` | Automate Instantly cold email outreach -- manage campaigns, sending accounts, lead lists, bulk lead imports, and campaign analytics -- using natural language through the Composio MCP integration. |
+| **klaviyo-automation** | `klaviyo-automation` | Automate Klaviyo tasks via Rube MCP (Composio): manage email/SMS campaigns, inspect campaign messages, track tags, and monitor send jobs. Always search tools first for current schemas. |
+| **mailchimp-automation** | `mailchimp-automation` | Automate Mailchimp email marketing including campaigns, audiences, subscribers, segments, and analytics via Rube MCP (Composio). Always search tools first for current schemas. |
+| **MailerLite Automation** | `mailerlite-automation` | Automate email marketing workflows including subscriber management, campaign analytics, group segmentation, and account monitoring through MailerLite via Composio |
 | **many-chat-automation** | `many-chat-automation` | Automate ManyChat tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | **many_chat-automation** | `many_chat-automation` | Automate ManyChat tasks via Rube MCP (Composio): chatbot flows, subscribers, broadcasts, and messenger automation. Always search tools first for current schemas. |
 | **meeting-insights-analyzer** | `meeting-insights-analyzer` | Analyzes meeting transcripts and recordings to uncover behavioral patterns, communication insights, and actionable feedback. Identifies when you avoid conflict, use filler words, dominate conversations, or miss opportunities to listen. Perfect for professionals seeking to improve their communication and leadership skills. |
 | **microsoft-teams-automation** | `microsoft-teams-automation` | Automate Microsoft Teams tasks via Rube MCP (Composio): send messages, manage channels, create meetings, handle chats, and search messages. Always search tools first for current schemas. |
+| **New Relic Automation** | `new-relic-automation` | Automate New Relic observability workflows -- manage alert policies, notification channels, alert conditions, and monitor applications and browser apps via the Composio MCP integration. |
 | **obsidian-cli** | `obsidian-cli` | Interact with Obsidian vaults using the Obsidian CLI to read, create, search, and manage notes, tasks, properties, and more. Also supports plugin and theme development with commands to reload plugins, run JavaScript, capture errors, take screenshots, and inspect the DOM. Use when the user asks to interact with their Obsidian vault, manage notes, search vault content, perform vault operations from the command line, or develop and debug Obsidian plugins and themes. |
 | **obsidian-markdown** | `obsidian-markdown` | Create and edit Obsidian Flavored Markdown with wikilinks, embeds, callouts, properties, and other Obsidian-specific syntax. Use when working with .md files in Obsidian, or when the user mentions wikilinks, callouts, frontmatter, tags, embeds, or Obsidian notes. |
+| **onesignal_rest_api-automation** | `onesignal_rest_api-automation` | Automate OneSignal tasks via Rube MCP (Composio): push notifications, segments, templates, and messaging. Always search tools first for current schemas. |
+| **OpenAI Automation** | `openai-automation` | Automate OpenAI API operations -- generate responses with multimodal and structured output support, create embeddings, generate images, and list models via the Composio MCP integration. |
+| **outlook-automation** | `outlook-automation` | Automate Outlook tasks via Rube MCP (Composio): emails, calendar, contacts, folders, attachments. Always search tools first for current schemas. |
 | **outlook-calendar-automation** | `outlook-calendar-automation` | Automate Outlook Calendar tasks via Rube MCP (Composio): create events, manage attendees, find meeting times, and handle invitations. Always search tools first for current schemas. |
 | **pagerduty-automation** | `pagerduty-automation` | Automate PagerDuty tasks via Rube MCP (Composio): manage incidents, services, schedules, escalation policies, and on-call rotations. Always search tools first for current schemas. |
+| **postmark-automation** | `postmark-automation` | Automate Postmark email delivery tasks via Rube MCP (Composio): send templated emails, manage templates, monitor delivery stats and bounces. Always search tools first for current schemas. |
 | **recallai-automation** | `recallai-automation` | Automate Recallai tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | **reply-automation** | `reply-automation` | Automate Reply tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | **reply-io-automation** | `reply-io-automation` | Automate Reply IO tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | **ring_central-automation** | `ring_central-automation` | Automate RingCentral tasks via Rube MCP (Composio): calls, messages, meetings, and unified communications. Always search tools first for current schemas. |
+| **sendgrid-automation** | `sendgrid-automation` | Automate SendGrid email operations including sending emails, managing contacts/lists, sender identities, templates, and analytics via Rube MCP (Composio). Always search tools first for current schemas. |
 | **skill-share** | `skill-share` | A skill that creates new Claude skills and automatically shares them on Slack using Rube for seamless team collaboration and skill discovery. |
+| **slack-automation** | `slack-automation` | Automate Slack messaging, channel management, search, reactions, and threads via Rube MCP (Composio). Send messages, search conversations, manage channels/users, and react to messages programmatically. |
 | **slack-gif-creator** | `slack-gif-creator` | Knowledge and utilities for creating animated GIFs optimized for Slack. Provides constraints, validation tools, and animation concepts. Use when users request animated GIFs for Slack like "make me a GIF of X doing Y for Slack. |
 | **slackbot-automation** | `slackbot-automation` | Automate Slackbot tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | **sms-alert-automation** | `sms-alert-automation` | Automate SMS Alert tasks via Rube MCP (Composio). Always search tools first for current schemas. |
@@ -46,8 +75,15 @@ Total Skills: 47
 | **supportivekoala-automation** | `supportivekoala-automation` | Automate Supportivekoala tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | **telegram-automation** | `telegram-automation` | Automate Telegram tasks via Rube MCP (Composio): send messages, manage chats, share photos/documents, and handle bot commands. Always search tools first for current schemas. |
 | **ticketmaster-automation** | `ticketmaster-automation` | Automate Ticketmaster tasks via Rube MCP (Composio). Always search tools first for current schemas. |
+| **verifiedemail-automation** | `verifiedemail-automation` | Automate Verifiedemail tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | **wave_accounting-automation** | `wave_accounting-automation` | Automate Wave Accounting tasks via Rube MCP (Composio): invoices, customers, payments, and small business accounting. Always search tools first for current schemas. |
 | **Webex Automation** | `webex-automation` | Automate Cisco Webex messaging, rooms, teams, webhooks, and people management through natural language commands |
+| **whatsapp-automation** | `whatsapp-automation` | Automate WhatsApp Business tasks via Rube MCP (Composio): send messages, manage templates, upload media, and handle contacts. Always search tools first for current schemas. |
 | **zendesk-automation** | `zendesk-automation` | Automate Zendesk tasks via Rube MCP (Composio): tickets, users, organizations, replies. Always search tools first for current schemas. |
+| **zoho-invoice-automation** | `zoho-invoice-automation` | Automate Zoho Invoice tasks via Rube MCP (Composio). Always search tools first for current schemas. |
+| **zoho_books-automation** | `zoho_books-automation` | Automate Zoho Books tasks via Rube MCP (Composio): invoices, expenses, contacts, payments, and accounting. Always search tools first for current schemas. |
+| **zoho_desk-automation** | `zoho_desk-automation` | Automate Zoho Desk tasks via Rube MCP (Composio): tickets, contacts, agents, departments, and help desk operations. Always search tools first for current schemas. |
+| **zoho_invoice-automation** | `zoho_invoice-automation` | Automate Zoho Invoice tasks via Rube MCP (Composio): invoices, estimates, expenses, clients, and payment tracking. Always search tools first for current schemas. |
+| **zoho_mail-automation** | `zoho_mail-automation` | Automate Zoho Mail tasks via Rube MCP (Composio): email sending, folders, labels, and mailbox management. Always search tools first for current schemas. |
 | **zoom-automation** | `zoom-automation` | Automate Zoom meeting creation, management, recordings, webinars, and participant tracking via Rube MCP (Composio). Always search tools first for current schemas. |
 | **zoominfo-automation** | `zoominfo-automation` | Automate Zoominfo tasks via Rube MCP (Composio). Always search tools first for current schemas. |

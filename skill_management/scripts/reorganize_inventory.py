@@ -29,7 +29,8 @@ MISSING_SKILLS = [
     {"name": "Competitor Analysis", "folder": "competitor-analysis", "description": "Deep dive analysis for B2B SaaS competitors. Extract pricing, features, GTM strategy, and positioning holes.", "category": "Marketing & SEO"},
     {"name": "cPanel Deployer", "folder": "cpanel-deployer", "description": "Automate the deployment of PHP/MySQL applications to cPanel environments, including database creation and file uploads.", "category": "Development & IT"},
     {"name": "n8n Workflow Manager", "folder": "n8n-workflow-manager", "description": "Manage n8n workflows, nodes, and credentials. Export, import, and version control your automations.", "category": "Automation & Integration"},
-    {"name": "SaaS Idea Validator", "folder": "saas-idea-validator", "description": "Evaluate \"boring\" B2B SaaS ideas against sustainability, market demand, and complexity criteria.", "category": "Product & Strategy"}
+    {"name": "SaaS Idea Validator", "folder": "saas-idea-validator", "description": "Evaluate \"boring\" B2B SaaS ideas against sustainability, market demand, and complexity criteria.", "category": "Product & Strategy"},
+    {"name": "learning-from-tutorials", "folder": "learning-from-tutorials", "description": "Uses NotebookLM to curate and learn from multiple YouTube tutorials. Finds the best source among candidates and extracts deterministic Antigravity skills.", "category": "Development & IT"}
 ]
 
 # Productivity & Collaboration Split Logic

@@ -1,16 +1,16 @@
 ---
 name: brand-identity
-description: Ensures all AI-generated content follows brand identity guidelines and tech stack constraints.
-version: 1.0.0
-tags: [design, brand, guidelines, styling]
+description: Provides the single source of truth for brand guidelines, design tokens, technology choices, and voice/tone. Use this skill whenever generating UI components, styling applications, writing copy, or creating user-facing assets to ensure brand consistency.
 ---
 
 # Brand Identity & Guidelines
-**Brand Name:** [INSERT BRAND NAME HERE]
+
+**Brand Name:** AntiGravity
 
 This skill defines the core constraints for visual design and technical implementation for the brand. You must adhere to these guidelines strictly to maintain consistency.
 
 ## Reference Documentation
+
 Depending on the task you are performing, consult the specific resource files below. Do not guess brand elements; always read the corresponding file.
 
 ### For Visual Design & UI Styling
@@ -22,5 +22,5 @@ If you are generating code, choosing libraries, or structuring UI components, re
 👉 **[`resources/tech-stack.md`](resources/tech-stack.md)**
 
 ### For Copywriting & Content Generation
-When generating text, adhere to this brand persona:
-👉 **[`prompt-templates/identity-guidelines.md`](prompt-templates/identity-guidelines.md)**
+If you are writing marketing copy, error messages, documentation, or user-facing text, read the persona guidelines here:
+👉 **[`resources/voice-tone.md`](resources/voice-tone.md)**
