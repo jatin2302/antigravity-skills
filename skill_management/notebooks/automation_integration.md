@@ -1,6 +1,6 @@
 # Skills - Automation & Integration
 
-Total Skills: 674
+Total Skills: 675
 
 | Name | Folder | Description |
 | :--- | :--- | :--- |
@@ -223,6 +223,7 @@ Total Skills: 674
 | **everhour-automation** | `everhour-automation` | Automate Everhour tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | **eversign-automation** | `eversign-automation` | Automate Eversign tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | **exa-automation** | `exa-automation` | Automate Exa tasks via Rube MCP (Composio). Always search tools first for current schemas. |
+| **excalidraw-diagram** | `excalidraw-diagram` | Use when someone asks to draw a diagram, make an Excalidraw diagram, or build an editable diagram. Default for all diagram requests. |
 | **exist-automation** | `exist-automation` | Automate Exist tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | **expofp-automation** | `expofp-automation` | Automate Expofp tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | **extracta-ai-automation** | `extracta-ai-automation` | Automate Extracta AI tasks via Rube MCP (Composio). Always search tools first for current schemas. |

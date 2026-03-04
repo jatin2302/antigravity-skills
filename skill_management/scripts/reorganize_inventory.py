@@ -30,7 +30,12 @@ MISSING_SKILLS = [
     {"name": "cPanel Deployer", "folder": "cpanel-deployer", "description": "Automate the deployment of PHP/MySQL applications to cPanel environments, including database creation and file uploads.", "category": "Development & IT"},
     {"name": "n8n Workflow Manager", "folder": "n8n-workflow-manager", "description": "Manage n8n workflows, nodes, and credentials. Export, import, and version control your automations.", "category": "Automation & Integration"},
     {"name": "SaaS Idea Validator", "folder": "saas-idea-validator", "description": "Evaluate \"boring\" B2B SaaS ideas against sustainability, market demand, and complexity criteria.", "category": "Product & Strategy"},
-    {"name": "learning-from-tutorials", "folder": "learning-from-tutorials", "description": "Uses NotebookLM to curate and learn from multiple YouTube tutorials. Finds the best source among candidates and extracts deterministic Antigravity skills.", "category": "Development & IT"}
+    {"name": "learning-from-tutorials", "folder": "learning-from-tutorials", "description": "Uses NotebookLM to curate and learn from multiple YouTube tutorials. Finds the best source among candidates and extracts deterministic Antigravity skills.", "category": "Development & IT"},
+    {"name": "excalidraw-diagram", "folder": "excalidraw-diagram", "description": "Use when someone asks to draw a diagram, make an Excalidraw diagram, or build an editable diagram. Default for all diagram requests.", "category": "Productivity"},
+    {"name": "frontend-design", "folder": "frontend-design", "description": "Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, or applications. Generates creative, polished code that avoids generic AI aesthetics.", "category": "Development & IT"},
+    {"name": "Nano Banana 2 Image Generation Master", "folder": "nano-banana-2-image-generation", "description": "A formalized skill for generating hyper-realistic, highly-controlled images using the Nano Banana 2 (Gemini 3.1 Flash) model through parameterized JSON prompting.", "category": "Content & Media"},
+    {"name": "skill-builder", "folder": "skill-builder", "description": "Use when creating new skills, optimizing existing skills, or auditing skill quality. Guides skill development following Claude Code official best practices.", "category": "Development & IT"},
+    {"name": "video-to-website", "folder": "video-to-website", "description": "Turn a video into a premium scroll-driven animated website with GSAP, canvas frame rendering, and layered animation choreography.", "category": "Development & IT"}
 ]
 
 # Productivity & Collaboration Split Logic

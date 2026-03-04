@@ -1,6 +1,6 @@
 # Skills - Development & IT
 
-Total Skills: 105
+Total Skills: 107
 
 | Name | Folder | Description |
 | :--- | :--- | :--- |
@@ -93,6 +93,7 @@ Total Skills: 105
 | **serpapi-automation** | `serpapi-automation` | Automate Serpapi tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | **similarweb-digitalrank-api-automation** | `similarweb-digitalrank-api-automation` | Automate SimilarWeb tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | **similarweb_digitalrank_api-automation** | `similarweb_digitalrank_api-automation` | Automate SimilarWeb tasks via Rube MCP (Composio): website traffic, rankings, and digital market intelligence. Always search tools first for current schemas. |
+| **skill-builder** | `skill-builder` | Use when creating new skills, optimizing existing skills, or auditing skill quality. Guides skill development following Claude Code official best practices. |
 | **Snowflake Automation** | `snowflake-automation` | Automate Snowflake data warehouse operations -- list databases, schemas, and tables, execute SQL statements, and manage data workflows via the Composio MCP integration. |
 | **sslmate-cert-spotter-api-automation** | `sslmate-cert-spotter-api-automation` | Automate Sslmate Cert Spotter API tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | **subagent-driven-development** | `subagent-driven-development` | Use when executing implementation plans with independent tasks in the current session |
@@ -103,6 +104,7 @@ Total Skills: 105
 | **tripadvisor-content-api-automation** | `tripadvisor-content-api-automation` | Automate TripAdvisor tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | **ui-ux-pro-max** | `ui-ux-pro-max` | UI/UX design intelligence. 50 styles, 21 palettes, 50 font pairings, 20 charts, 8 stacks (React, Next.js, Vue, Svelte, SwiftUI, React Native, Flutter, Tailwind). Actions: plan, build, create, design, implement, review, fix, improve, optimize, enhance, refactor, check UI/UX code. Projects: website, landing page, dashboard, admin panel, e-commerce, SaaS, portfolio, blog, mobile app, .html, .tsx, .vue, .svelte. Elements: button, modal, navbar, sidebar, card, table, form, chart. Styles: glassmorphism, claymorphism, minimalism, brutalism, neumorphism, bento grid, dark mode, responsive, skeuomorphism, flat design. Topics: color palette, accessibility, animation, layout, typography, font pairing, spacing, hover, shadow, gradient. |
 | **using-git-worktrees** | `using-git-worktrees` | Use when starting feature work that needs isolation from current workspace or before executing implementation plans - creates isolated git worktrees with smart directory selection and safety verification |
+| **video-to-website** | `video-to-website` | Turn a video into a premium scroll-driven animated website with GSAP, canvas frame rendering, and layered animation choreography. |
 | **web-design-guidelines** | `web-design-guidelines` | Review UI code for Web Interface Guidelines compliance. Use when asked to "review my UI", "check accessibility", "audit design", "review UX", or "check my site against best practices". |
 | **webscraping-ai-automation** | `webscraping-ai-automation` | Automate Webscraping AI tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | **wolfram-alpha-api-automation** | `wolfram-alpha-api-automation` | Automate Wolfram Alpha API tasks via Rube MCP (Composio). Always search tools first for current schemas. |

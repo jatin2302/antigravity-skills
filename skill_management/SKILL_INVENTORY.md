@@ -1,8 +1,8 @@
 # Awesome Claude Skills - Master Inventory
 
-Total Skills: 1022
+Total Skills: 1026
 
-### Development & IT (105)
+### Development & IT (107)
 
 | Name | Folder | Description |
 | :--- | :--- | :--- |
@@ -95,6 +95,7 @@ Total Skills: 1022
 | **serpapi-automation** | `serpapi-automation` | Automate Serpapi tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | **similarweb-digitalrank-api-automation** | `similarweb-digitalrank-api-automation` | Automate SimilarWeb tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | **similarweb_digitalrank_api-automation** | `similarweb_digitalrank_api-automation` | Automate SimilarWeb tasks via Rube MCP (Composio): website traffic, rankings, and digital market intelligence. Always search tools first for current schemas. |
+| **skill-builder** | `skill-builder` | Use when creating new skills, optimizing existing skills, or auditing skill quality. Guides skill development following Claude Code official best practices. |
 | **Snowflake Automation** | `snowflake-automation` | Automate Snowflake data warehouse operations -- list databases, schemas, and tables, execute SQL statements, and manage data workflows via the Composio MCP integration. |
 | **sslmate-cert-spotter-api-automation** | `sslmate-cert-spotter-api-automation` | Automate Sslmate Cert Spotter API tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | **subagent-driven-development** | `subagent-driven-development` | Use when executing implementation plans with independent tasks in the current session |
@@ -105,6 +106,7 @@ Total Skills: 1022
 | **tripadvisor-content-api-automation** | `tripadvisor-content-api-automation` | Automate TripAdvisor tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | **ui-ux-pro-max** | `ui-ux-pro-max` | UI/UX design intelligence. 50 styles, 21 palettes, 50 font pairings, 20 charts, 8 stacks (React, Next.js, Vue, Svelte, SwiftUI, React Native, Flutter, Tailwind). Actions: plan, build, create, design, implement, review, fix, improve, optimize, enhance, refactor, check UI/UX code. Projects: website, landing page, dashboard, admin panel, e-commerce, SaaS, portfolio, blog, mobile app, .html, .tsx, .vue, .svelte. Elements: button, modal, navbar, sidebar, card, table, form, chart. Styles: glassmorphism, claymorphism, minimalism, brutalism, neumorphism, bento grid, dark mode, responsive, skeuomorphism, flat design. Topics: color palette, accessibility, animation, layout, typography, font pairing, spacing, hover, shadow, gradient. |
 | **using-git-worktrees** | `using-git-worktrees` | Use when starting feature work that needs isolation from current workspace or before executing implementation plans - creates isolated git worktrees with smart directory selection and safety verification |
+| **video-to-website** | `video-to-website` | Turn a video into a premium scroll-driven animated website with GSAP, canvas frame rendering, and layered animation choreography. |
 | **web-design-guidelines** | `web-design-guidelines` | Review UI code for Web Interface Guidelines compliance. Use when asked to "review my UI", "check accessibility", "audit design", "review UX", or "check my site against best practices". |
 | **webscraping-ai-automation** | `webscraping-ai-automation` | Automate Webscraping AI tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | **wolfram-alpha-api-automation** | `wolfram-alpha-api-automation` | Automate Wolfram Alpha API tasks via Rube MCP (Composio). Always search tools first for current schemas. |
@@ -112,7 +114,7 @@ Total Skills: 1022
 | **writing-skills** | `writing-skills` | Use when creating new skills, editing existing skills, or verifying skills work before deployment |
 | **zyte-api-automation** | `zyte-api-automation` | Automate Zyte API tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 
-### Automation & Integration (674)
+### Automation & Integration (675)
 
 | Name | Folder | Description |
 | :--- | :--- | :--- |
@@ -335,6 +337,7 @@ Total Skills: 1022
 | **everhour-automation** | `everhour-automation` | Automate Everhour tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | **eversign-automation** | `eversign-automation` | Automate Eversign tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | **exa-automation** | `exa-automation` | Automate Exa tasks via Rube MCP (Composio). Always search tools first for current schemas. |
+| **excalidraw-diagram** | `excalidraw-diagram` | Use when someone asks to draw a diagram, make an Excalidraw diagram, or build an editable diagram. Default for all diagram requests. |
 | **exist-automation** | `exist-automation` | Automate Exist tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | **expofp-automation** | `expofp-automation` | Automate Expofp tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | **extracta-ai-automation** | `extracta-ai-automation` | Automate Extracta AI tasks via Rube MCP (Composio). Always search tools first for current schemas. |
@@ -967,7 +970,7 @@ Total Skills: 1022
 | **theme-factory** | `theme-factory` | Toolkit for styling artifacts with a theme. These artifacts can be slides, docs, reportings, HTML landing pages, etc. There are 10 pre-set themes with colors/fonts that you can apply to any artifact that has been creating, or can generate a new theme on-the-fly. |
 | **Workday Automation** | `workday-automation` | Automate HR operations in Workday -- manage workers, time off requests, absence balances, and employee data through natural language commands. |
 
-### Content & Media (11)
+### Content & Media (12)
 
 | Name | Folder | Description |
 | :--- | :--- | :--- |
@@ -979,6 +982,7 @@ Total Skills: 1022
 | **context-fundamentals** | `context-fundamentals` | This skill should be used when the user asks to "understand context", "explain context windows", "design agent architecture", "debug context issues", "optimize context usage", or discusses context components, attention mechanics, progressive disclosure, or context budgeting. Provides foundational understanding of context engineering for AI agent systems. |
 | **defuddle** | `defuddle` | Extract clean markdown content from web pages using Defuddle CLI, removing clutter and navigation to save tokens. Use instead of WebFetch when the user provides a URL to read or analyze, for online documentation, articles, blog posts, or any standard web page. |
 | **multi-agent-patterns** | `multi-agent-patterns` | This skill should be used when the user asks to "design multi-agent system", "implement supervisor pattern", "create swarm architecture", "coordinate multiple agents", or mentions multi-agent patterns, context isolation, agent handoffs, sub-agents, or parallel agent execution. |
+| **Nano Banana 2 Image Generation Master** | `nano-banana-2-image-generation` | A formalized skill for generating hyper-realistic, highly-controlled images using the Nano Banana 2 (Gemini 3.1 Flash) model through parameterized JSON prompting. |
 | **pdf** | `pdf` | Use this skill whenever the user wants to do anything with PDF files. This includes reading or extracting text/tables from PDFs, combining or merging multiple PDFs into one, splitting PDFs apart, rotating pages, adding watermarks, creating new PDFs, filling PDF forms, encrypting/decrypting PDFs, extracting images, and OCR on scanned PDFs to make them searchable. If the user mentions a .pdf file or asks to produce one, use this skill. |
 | **remotion-best-practices** | `remotion` | Best practices for Remotion - Video creation in React |
 | **tool-design** | `tool-design` | This skill should be used when the user asks to "design agent tools", "create tool descriptions", "reduce tool complexity", "implement MCP tools", or mentions tool consolidation, architectural reduction, tool naming conventions, or agent-tool interfaces. |

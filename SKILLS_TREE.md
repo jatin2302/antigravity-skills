@@ -92,6 +92,7 @@ skills/
 │   ├── serpapi-automation/
 │   ├── similarweb-digitalrank-api-automation/
 │   ├── similarweb_digitalrank_api-automation/
+│   ├── skill-builder/
 │   ├── snowflake-automation/
 │   ├── sslmate-cert-spotter-api-automation/
 │   ├── subagent-driven-development/
@@ -102,6 +103,7 @@ skills/
 │   ├── tripadvisor-content-api-automation/
 │   ├── ui-ux-pro-max/
 │   ├── using-git-worktrees/
+│   ├── video-to-website/
 │   ├── web-design-guidelines/
 │   ├── webscraping-ai-automation/
 │   ├── wolfram-alpha-api-automation/
@@ -328,6 +330,7 @@ skills/
 │   ├── everhour-automation/
 │   ├── eversign-automation/
 │   ├── exa-automation/
+│   ├── excalidraw-diagram/
 │   ├── exist-automation/
 │   ├── expofp-automation/
 │   ├── extracta-ai-automation/
@@ -944,6 +947,7 @@ skills/
 │   ├── context-fundamentals/
 │   ├── defuddle/
 │   ├── multi-agent-patterns/
+│   ├── nano-banana-2-image-generation/
 │   ├── pdf/
 │   ├── remotion/
 │   ├── tool-design/
