@@ -6,6 +6,7 @@ def create_tree():
     script_dir = os.path.dirname(os.path.abspath(__file__))
     inventory_path = os.path.join(script_dir, '..', 'SKILL_INVENTORY.md')
     output_path = os.path.join(script_dir, '..', '..', 'SKILLS_TREE.md')
+    composio_tree_path = os.path.join(script_dir, '..', 'composio_skills', 'COMPOSIO_SKILL_TREE.md')
     
     with open(inventory_path, 'r', encoding='utf-8') as f:
         lines = f.readlines()

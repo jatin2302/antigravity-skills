@@ -1,5 +1,6 @@
 import re
 import os
+import subprocess
 
 script_dir = os.path.dirname(os.path.abspath(__file__))
 INVENTORY_PATH = os.path.join(script_dir, "..", "SKILL_INVENTORY.md")
@@ -217,6 +218,14 @@ def main():
         f.write("\n".join(output_lines))
         
     print(f"Successfully updated inventory with {total_skills} skills.")
+
+    # Call the Composio separation script
+    print("Running Composio separation...")
+    composio_script_path = os.path.join(script_dir, "separate_composio_skills.py")
+    if os.path.exists(composio_script_path):
+        subprocess.run(["python3", composio_script_path], check=True)
+    else:
+        print(f"Warning: Separation script not found at {composio_script_path}")
 
 if __name__ == "__main__":
     main()
