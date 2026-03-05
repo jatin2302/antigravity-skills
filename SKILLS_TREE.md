@@ -331,6 +331,7 @@ skills/
 │   ├── eversign-automation/
 │   ├── exa-automation/
 │   ├── excalidraw-diagram/
+│   ├── excalidraw-visuals/
 │   ├── exist-automation/
 │   ├── expofp-automation/
 │   ├── extracta-ai-automation/
@@ -801,6 +802,7 @@ skills/
 │   ├── zoho-books-automation/
 ├── marketing_seo/
 │   ├── ai content and page builder/
+│   ├── business-model-analyst/
 │   ├── Checks QA SOP/
 │   ├── competitive-ads-extractor/
 │   ├── competitor-analysis/
