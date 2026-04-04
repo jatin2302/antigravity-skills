@@ -4,14 +4,15 @@ description: Uses NotebookLM to research, analyze, and create content while Anti
 version: 1.0.0
 tags: [notebooklm, integration, automation, research, content-creation]
 ---
+metadata:
+  author: jatinbhutani
+  version: "1.0"
+license: MIT
+---
 
 # The AntiGravity and NotebookLM Integration Master Guide
 
-The Brain + The Builder. NotebookLM researches, analyzes, and creates. AntiGravity takes action, builds, and automates. Together? Unstoppable.
-
-## Workflow
-
-When asked to leverage NotebookLM for building or automating, follow the relevant playbook below to orchestrate NotebookLM tasks (via the NotebookLM MCP tools) and AntiGravity actions.
+The Brain + The Builder. NotebookLM researches, analyzes, and creates. AntiGravity takes action, builds, and automates. Together? Unstoppable.\n\n## Workflow\n\nWhen asked to leverage NotebookLM for building or automating, follow the relevant playbook below to orchestrate NotebookLM tasks (via the NotebookLM MCP tools) and AntiGravity actions.
 
 ### 1. Connect Antigravity to NotebookLM (Setup)
 If the user hasn't set up the MCP server, ensure you do so using the `mcp_notebooklm_*` tools. You may need to run `notebooklm-mcp-auth` in Bash.
