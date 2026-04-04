@@ -3,6 +3,11 @@ name: prompt-refinement
 description: Critiques and expands the user's initial prompt into a highly detailed, professional prompt, forcing the creation of an in-depth research and execution plan before any active tool use.
 license: MIT
 ---
+metadata:
+  author: jatinbhutani
+  version: "1.0"
+license: MIT
+---
 
 # Prompt Refinement & Deep Research Planning
 
@@ -41,7 +46,7 @@ Do NOT start working on the task yet. First, output a **Prompt Refinement Block*
 ## 3. Phase 2: In-Depth Research Plan
 Once the prompt is refined, build an **In-Depth Research & Execution Plan**. AG must investigate existing code, system limits, and KIs (Knowledge Items) before executing.
 
-**Create or update `_agent/task_plan.md`:**
+**Create or update `task_plan.md`:**
 1. **Phase 1: Deep Research** (List specific files, directories, and dependencies to read/search).
 2. **Phase 2: Draft Architecture / Strategy** (How we will solve the problem based on research).
 3. **Phase 3: Execution Steps** (Granular, step-by-step TDD tasks).
@@ -50,4 +55,4 @@ Once the prompt is refined, build an **In-Depth Research & Execution Plan**. AG 
 ## 4. Anti-Patterns
 - **Don't** immediately start writing code after a vague user prompt. Stop and refine.
 - **Don't** rush the research phase. Take the time to read the existing codebase architecture.
-- **Don't** assume standard best practices apply; check `_agent/gemini.md` and `/knowledge` KIs first.
+- **Don't** assume standard best practices apply; check `gemini.md` and `/knowledge` KIs first.

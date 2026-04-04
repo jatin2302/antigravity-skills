@@ -4,6 +4,11 @@ description: Uses NotebookLM to curate and learn from multiple YouTube tutorials
 version: 1.2.0
 tags: [youtube, learning, notebooklm, curation, automation]
 ---
+metadata:
+  author: jatinbhutani
+  version: "1.0"
+license: MIT
+---
 
 # Learning From Tutorials (NotebookLM Curation)
 
@@ -32,7 +37,7 @@ This skill leverages NotebookLM as a curation and synthesis engine. Instead of p
 
 ### 4. Skill Production
 - Translate the extracted workflow into the standard `ag-skill-creator` template.
-- Save to `_agent/skills/[gerund-name]/SKILL.md` and sync to `~/GitHub/antigravity-skills/`.
+- Save to `skills/[gerund-name]/SKILL.md` and sync to `~/GitHub/antigravity-skills/`.
 
 ## 📋 Pre-Flight Checklist
 - [ ] At least 3 candidate tutorials searched?
